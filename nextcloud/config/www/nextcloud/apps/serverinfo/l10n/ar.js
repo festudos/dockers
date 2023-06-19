@@ -1,0 +1,26 @@
+OC.L10N.register(
+    "serverinfo",
+    {
+    "Not supported!" : "غير مدعوم!",
+    "Press ⌘-C to copy." : "إضغط ⌘-C للنسخ",
+    "Press Ctrl-C to copy." : "إضغط Ctrl-C للنسخ.",
+    "System" : "النظام",
+    "Monitoring" : "المراقبة",
+    "Temperature" : "درجة الحرارة",
+    "Memory" : "الذاكرة",
+    "Size:" : "الحجم:",
+    "Files:" : "الملفات:",
+    "Free Space:" : "المساحة الحرة:",
+    "Network" : "الشبكة",
+    "Active users" : "المستخدمون النشطون",
+    "Total users:" : "العدد الإجمالي للمستخدمين:",
+    "Shares" : "مشاركة",
+    "Users:" : "المستخدمين:",
+    "PHP" : "PHP",
+    "Version:" : "الأصدار:",
+    "Upload max size:" : "الحجم الأقصى للرفع:",
+    "Database" : "قاعدة البيانات",
+    "Type:" : "النوع:",
+    "Copy" : "نسخ"
+},
+"nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

@@ -1,0 +1,413 @@
+{
+    "name": "Black Panther: Wakanda Forever",
+    "tmdb_id": "505642",
+    "imdb_id": "tt9114286",
+    "moviedisc": [
+        {
+            "id": "384585",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviedisc/black-panther-wakanda-forever-63af7eda04b63.png",
+            "lang": "en",
+            "likes": "7",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "384607",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviedisc/black-panther-wakanda-forever-63b0096658fb5.png",
+            "lang": "en",
+            "likes": "6",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "384614",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviedisc/black-panther-wakanda-forever-63b01bf4baac9.png",
+            "lang": "en",
+            "likes": "6",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "385033",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviedisc/black-panther-wakanda-forever-63b3831d7d90b.png",
+            "lang": "en",
+            "likes": "4",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "385034",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviedisc/black-panther-wakanda-forever-63b3832053eaf.png",
+            "lang": "en",
+            "likes": "3",
+            "disc": "1",
+            "disc_type": "bluray"
+        }
+    ],
+    "hdmovielogo": [
+        {
+            "id": "332749",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-ii-609227ee95774.png",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "388184",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-63dd4991ccc56.png",
+            "lang": "hu",
+            "likes": "3"
+        },
+        {
+            "id": "388785",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-63e7b297beadb.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "383538",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-639db587e22a9.png",
+            "lang": "pt",
+            "likes": "2"
+        },
+        {
+            "id": "377213",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-6330b54896223.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "375229",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-630e1b754e3be.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "393712",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-6439c8d44c0b7.png",
+            "lang": "es",
+            "likes": "1"
+        },
+        {
+            "id": "377273",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-6331dae76d8a1.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "388146",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-63dd198f6fc1e.png",
+            "lang": "pl",
+            "likes": "0"
+        },
+        {
+            "id": "320264",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-2-60035431ddc2d.png",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "317254",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-2-5fd7cccaac69a.png",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "378382",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-6343ed9bae817.png",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "381374",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-637912e9312cf.png",
+            "lang": "cz",
+            "likes": "0"
+        },
+        {
+            "id": "381373",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovielogo/black-panther-wakanda-forever-637912e693443.png",
+            "lang": "cz",
+            "likes": "0"
+        }
+    ],
+    "moviebanner": [
+        {
+            "id": "383402",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebanner/black-panther-wakanda-forever-639b7dca1688c.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "384533",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebanner/black-panther-wakanda-forever-63aecf0042624.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "384532",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebanner/black-panther-wakanda-forever-63aeceb48c2ea.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "384449",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebanner/black-panther-wakanda-forever-63ad58cfa4c95.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "384446",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebanner/black-panther-wakanda-forever-63ad2bf6dd0a5.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "moviebackground": [
+        {
+            "id": "378367",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-6343456e2940d.jpg",
+            "lang": "",
+            "likes": "3"
+        },
+        {
+            "id": "378191",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-634102cc5eac3.jpg",
+            "lang": "",
+            "likes": "2"
+        },
+        {
+            "id": "378159",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-63403d63b3cd3.jpg",
+            "lang": "",
+            "likes": "2"
+        },
+        {
+            "id": "388545",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-63e1fbba9c4d6.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "380724",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-636f7dc978093.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379326",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696d04a611.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379330",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696db378e6.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379325",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696cd48dbd.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379327",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696d2cbb76.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379328",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696d58f939.jpg",
+            "lang": "",
+            "likes": "1"
+        },
+        {
+            "id": "379329",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviebackground/black-panther-wakanda-forever-635696d8e4fdd.jpg",
+            "lang": "",
+            "likes": "1"
+        }
+    ],
+    "hdmovieclearart": [
+        {
+            "id": "387885",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovieclearart/black-panther-wakanda-forever-63d8c4fb67b65.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "388414",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/hdmovieclearart/black-panther-wakanda-forever-63e00cbfcdd87.png",
+            "lang": "cz",
+            "likes": "0"
+        }
+    ],
+    "moviethumb": [
+        {
+            "id": "378192",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-634102dff022e.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "385035",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b383310b3d1.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "385036",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b38333a7b06.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "388417",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63e00cdd32053.jpg",
+            "lang": "cz",
+            "likes": "0"
+        },
+        {
+            "id": "388416",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63e00cdb559d9.jpg",
+            "lang": "cz",
+            "likes": "0"
+        },
+        {
+            "id": "385043",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b3e9f863f6d.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "388147",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63dd1affa1d0f.jpg",
+            "lang": "pl",
+            "likes": "0"
+        },
+        {
+            "id": "385045",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b3ea2f3fcf7.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "385044",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b3ea11c1c09.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "385042",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/moviethumb/black-panther-wakanda-forever-63b3e9e8be778.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "movieposter": [
+        {
+            "id": "378366",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-6343435489b0f.jpg",
+            "lang": "00",
+            "likes": "2"
+        },
+        {
+            "id": "378187",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-634102b2ba2d4.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "388088",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63dbf20d1df88.jpg",
+            "lang": "hu",
+            "likes": "2"
+        },
+        {
+            "id": "388784",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63e7ae92b4813.jpg",
+            "lang": "00",
+            "likes": "2"
+        },
+        {
+            "id": "378028",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-633d99ebcbd29.jpg",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "378160",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63403d95a35f3.jpg",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "378188",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-634102b54aeb1.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "372959",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-62def8dfdafd3.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "372788",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-ii-62dcd4def3cf3.jpg",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "388430",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63e02fc4558b5.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "388413",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63e00c9f4354c.jpg",
+            "lang": "cz",
+            "likes": "0"
+        },
+        {
+            "id": "388412",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63e00c9675bb0.jpg",
+            "lang": "cz",
+            "likes": "0"
+        },
+        {
+            "id": "388151",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-63dd22d5a7f49.jpg",
+            "lang": "pl",
+            "likes": "0"
+        },
+        {
+            "id": "378189",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-634102b88ef50.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "378190",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-634102be43b61.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "381978",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-6382982260429.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "381977",
+            "url": "http://assets.fanart.tv/fanart/movies/505642/movieposter/black-panther-wakanda-forever-638297e97c1e0.jpg",
+            "lang": "00",
+            "likes": "0"
+        }
+    ]
+}

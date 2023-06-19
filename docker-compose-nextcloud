@@ -1,0 +1,46 @@
+version: "2"	
+	services:	
+	  nextcloud:	
+	    image: linuxserver/nextcloud	
+	    container_name: nextcloud	
+	    environment:	
+	      - PUID=1000	
+	      - PGID=100	
+	      - TZ=America/Sao_Paulo	
+	    volumes:	
+	      - I:\Fabricio\Docker\NextCloud\config\:/config	
+	      - I:\Fabricio\Docker\NextCloud\data\:/data	
+	    depends_on:	
+	      - mariadb	
+	    restart: unless-stopped	
+	  mariadb:	
+	    image: ghcr.io/linuxserver/mariadb	
+	    container_name: mariadb	
+	    environment:	
+	      - PUID=1000	
+	      - PGID=100	
+	      - MYSQL_ROOT_PASSWORD=3223	
+	      - TZ=America/Sao_Paulo	
+	    volumes:	
+	      - mariadb_data:/config	
+	    restart: unless-stopped	
+	  letsencrypt:	
+	    image: linuxserver/letsencrypt	
+	    container_name: letsencrypt	
+	    cap_add:	
+	      - NET_ADMIN	
+	    environment:	
+	      - PUID=1000	
+	      - PGID=100	
+	      - TZ=America/Sao_Paulo	
+	      - URL=fgm.duckdns.org	
+	      - SUBDOMAINS=wildcard	
+	      - VALIDATION=duckdns	
+	      - DUCKDNSTOKEN=a24ba2c9-aa4d-4c00-b4de-db3baa414f94	
+	      - EMAIL=fabriciogmabillot@gmail.com	
+	    volumes:	
+	      - I:\Fabricio\Docker\LetsEncrypt\config:/config	
+	    ports:	
+	      - 443:443	
+	      - 82:80	
+	    restart: unless-stopped

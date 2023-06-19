@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "b4b35e20d903d8d4e990c435d1f3bb49"
+        ],
+        "connections": [
+          [
+            "mac",
+            "b4:e8:42:e0:0e:24"
+          ]
+        ],
+        "identifiers": [
+          [
+            "flux_led",
+            "b4b35e20d903d8d4e990c435d1f3bb49"
+          ]
+        ],
+        "manufacturer": "Zengge",
+        "model": "Controller RGB (0x33)",
+        "name": "Controller RGB E00E24",
+        "sw_version": "10.48",
+        "hw_version": "AK001-ZJ2146",
+        "entry_type": null,
+        "id": "9efdf9ef776316c0d53736de597e9e3c",
+        "via_device_id": null,
+        "area_id": "quarto",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

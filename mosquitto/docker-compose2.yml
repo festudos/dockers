@@ -1,0 +1,30 @@
+version: '2.2'
+mqtt:
+  container_name: my_mqtt
+  image: eclipse-mosquitto
+  volumes:
+    - /media/butt/Arquivos/Docker/mosquitto/config:/mosquitto/config
+    - /media/butt/Arquivos/Docker/mosquitto/data:/mosquitto/data
+    - /media/butt/Arquivos/Docker/mosquitto/log:/mosquitto/log
+  ports:
+    - 1883:1883
+    - 9001:9001
+  restart: always
+#sudo docker run -it --name mqtt --restart always -p 1883:1883 -p 9001:9001 -v /media/butt/Arquivos/Docker/mosquitto/config:/mosquitto/config -v /media/butt/Arquivos/Docker/mosquitto/data:/mosquitto/data -v /media/butt/Arquivos/Docker/mosquitto/log:/mosquitto/log eclipse-mosquitto
+#services:
+ # mosquitto:
+  #  container_name: mqtt
+#    image: eclipse-mosquitto
+ #   #restart: always
+  #  volumes:
+#      - ./config:/mosquitto/config
+ #     - ./data:/mosquitto/data
+  #    - ./log:/mosquitto/log
+#    ports:
+ #     - 1883:1883
+  #    - 9001:9001
+#volumes:
+ # config:
+  #data:
+  #log:
+  #/media/butt/Arquivos/Docker/mosquitto

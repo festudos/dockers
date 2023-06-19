@@ -1,0 +1,15 @@
+.:53 {
+    forward . 8.8.8.8 1.1.1.1
+    log
+    errors
+}
+kserver.com:53 {
+    forward . 200.200.200.2:8000
+    log
+    errors
+}
+kserver.butt:53 {
+    file /root/kserver.db
+    log
+    errors
+}

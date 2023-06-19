@@ -1,0 +1,6 @@
+providers:
+  docker:
+    useBindPortIP: true
+    defaultRule: "Host(`{{ trimPrefix `/` .Name }}.server`)"
+api:
+  insecure: true

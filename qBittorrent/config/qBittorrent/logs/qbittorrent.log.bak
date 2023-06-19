@@ -1,0 +1,835 @@
+(I) 2023-04-21T14:11:20 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E02 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E08 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E07 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E03 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E06 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E01 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E05 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T14:11:20 - Torrent restaurado. Torrent: "The Mandalorian S03E04 1080p HEVC x265-MeGusta"
+(I) 2023-04-21T14:11:20 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-21T14:11:20 - Usando a interface de usuário da web embutida.
+(N) 2023-04-21T14:11:20 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-21T14:11:20 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-21T14:11:20 - Detectado IP externo. IP: "187.59.103.209"
+(N) 2023-04-21T14:11:22 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-21T14:11:23 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-21T16:37:25 - Novo torrent adicionado. Torrent: "House of the Dragon (2022) S01E02 - English - 1080p HQ HDRip - x264 - AAC - 900MB - QRips"
+(W) 2023-04-21T16:38:28 - Falha no login do WebAPI. Motivo: credenciais inválidas, contagem de tentativas: 1, IP: 192.0.0.2, nome de usuário: Butt
+(W) 2023-04-21T16:38:46 - Falha no login do WebAPI. Motivo: credenciais inválidas, contagem de tentativas: 2, IP: 192.0.0.2, nome de usuário: Butt
+(N) 2023-04-21T16:39:33 - Sucesso do login no WebAPI. IP: 192.0.0.2
+(N) 2023-04-21T16:42:37 - Torrent pausado. Torrent: "House of the Dragon (2022) S01E02 - English - 1080p HQ HDRip - x264 - AAC - 900MB - QRips"
+(N) 2023-04-21T16:52:56 - Torrent removido e apagado o seu conteúdo. Torrent: "House of the Dragon (2022) S01E02 - English - 1080p HQ HDRip - x264 - AAC - 900MB - QRips"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E02 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E08 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E03 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E06 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E01 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E05 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E04 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T16:53:12 - Torrent removido. Torrent: "The Mandalorian S03E07 1080p HEVC x265-MeGusta"
+(N) 2023-04-21T19:08:11 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-21T19:08:11 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-21T19:08:11 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-21T19:08:11 - ID do peer: "-qB4520-"
+(I) 2023-04-21T19:08:11 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-21T19:08:11 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-21T19:08:11 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-21T19:08:11 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-21T19:08:11 - Modo anônimo: DESLIGADO
+(I) 2023-04-21T19:08:11 - Suporte a criptografia: LIGADO
+(I) 2023-04-21T19:08:11 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-21T19:08:11 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-21T19:08:11 - Êxito ao escutar no IP. IP: "172.18.0.2". Porta: "TCP/6881"
+(I) 2023-04-21T19:08:11 - Êxito ao escutar no IP. IP: "172.18.0.2". Porta: "UTP/6881"
+(I) 2023-04-21T19:08:11 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-21T19:08:11 - Usando a interface de usuário da web embutida.
+(N) 2023-04-21T19:08:11 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-21T19:08:11 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-21T19:08:12 - Detectado IP externo. IP: "187.59.103.209"
+(N) 2023-04-21T19:08:14 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-21T19:08:15 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-21T19:13:47 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-21T19:13:47 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-21T19:13:47 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-21T19:13:47 - ID do peer: "-qB4520-"
+(I) 2023-04-21T19:13:47 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-21T19:13:47 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-21T19:13:47 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-21T19:13:47 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-21T19:13:47 - Modo anônimo: DESLIGADO
+(I) 2023-04-21T19:13:47 - Suporte a criptografia: LIGADO
+(I) 2023-04-21T19:13:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-21T19:13:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-21T19:13:47 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-04-21T19:13:47 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-04-21T19:13:47 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-21T19:13:47 - Usando a interface de usuário da web embutida.
+(N) 2023-04-21T19:13:47 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-21T19:13:47 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-21T19:13:48 - Detectado IP externo. IP: "187.59.103.209"
+(N) 2023-04-21T19:13:50 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-21T19:13:51 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-22T03:06:30 - Finalização do qBittorrent iniciada
+(I) 2023-04-22T03:06:30 - UPnP/NAT-PMP support: OFF
+(N) 2023-04-22T03:06:30 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-04-22T23:34:45 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-22T23:34:45 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-22T23:34:45 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-22T23:34:45 - ID do peer: "-qB4520-"
+(I) 2023-04-22T23:34:45 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-22T23:34:45 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-22T23:34:45 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-22T23:34:45 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-22T23:34:45 - Modo anônimo: DESLIGADO
+(I) 2023-04-22T23:34:45 - Suporte a criptografia: LIGADO
+(I) 2023-04-22T23:34:45 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-22T23:34:45 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-22T23:34:45 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-04-22T23:34:45 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-04-22T23:34:45 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-22T23:34:45 - Usando a interface de usuário da web embutida.
+(N) 2023-04-22T23:34:45 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-22T23:34:45 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-22T23:34:46 - Detectado IP externo. IP: "187.59.103.209"
+(N) 2023-04-22T23:34:48 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-22T23:34:49 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(I) 2023-04-23T14:09:09 - Detectado IP externo. IP: "187.58.190.54"
+(N) 2023-04-23T15:03:47 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-23T15:03:47 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-23T15:03:47 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-23T15:03:47 - ID do peer: "-qB4520-"
+(I) 2023-04-23T15:03:47 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-23T15:03:47 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-23T15:03:47 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-23T15:03:47 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-23T15:03:47 - Modo anônimo: DESLIGADO
+(I) 2023-04-23T15:03:47 - Suporte a criptografia: LIGADO
+(I) 2023-04-23T15:03:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-23T15:03:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-23T15:03:47 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "TCP/6881"
+(I) 2023-04-23T15:03:47 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "UTP/6881"
+(I) 2023-04-23T15:03:47 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-23T15:03:47 - Usando a interface de usuário da web embutida.
+(N) 2023-04-23T15:03:47 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-23T15:03:47 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-23T15:03:48 - Detectado IP externo. IP: "187.58.190.54"
+(N) 2023-04-23T15:03:50 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-23T15:03:51 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-23T20:13:49 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-23T20:13:49 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-23T20:13:49 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-23T20:13:49 - ID do peer: "-qB4520-"
+(I) 2023-04-23T20:13:49 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-23T20:13:49 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-23T20:13:49 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-23T20:13:49 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-23T20:13:49 - Modo anônimo: DESLIGADO
+(I) 2023-04-23T20:13:49 - Suporte a criptografia: LIGADO
+(I) 2023-04-23T20:13:49 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-23T20:13:49 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-23T20:13:49 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-04-23T20:13:49 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-04-23T20:13:49 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-23T20:13:49 - Usando a interface de usuário da web embutida.
+(N) 2023-04-23T20:13:49 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-23T20:13:49 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(N) 2023-04-23T20:13:52 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-23T20:13:53 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-26T01:20:04 - Finalização do qBittorrent iniciada
+(I) 2023-04-26T01:20:04 - UPnP/NAT-PMP support: OFF
+(N) 2023-04-26T01:20:04 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-04-28T10:53:47 - qBittorrent v4.5.2 iniciado
+(N) 2023-04-28T10:53:47 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-04-28T10:53:47 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-04-28T10:53:47 - ID do peer: "-qB4520-"
+(I) 2023-04-28T10:53:47 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-04-28T10:53:47 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-04-28T10:53:47 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-04-28T10:53:47 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-04-28T10:53:47 - Modo anônimo: DESLIGADO
+(I) 2023-04-28T10:53:47 - Suporte a criptografia: LIGADO
+(I) 2023-04-28T10:53:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-04-28T10:53:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-04-28T10:53:47 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-04-28T10:53:47 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-04-28T10:53:47 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-04-28T10:53:47 - Usando a interface de usuário da web embutida.
+(N) 2023-04-28T10:53:47 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-04-28T10:53:47 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-04-28T10:53:48 - Detectado IP externo. IP: "191.32.226.207"
+(N) 2023-04-28T10:53:50 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-04-28T10:53:51 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(I) 2023-04-28T23:20:17 - Detectado IP externo. IP: "191.35.43.3"
+(N) 2023-04-29T02:04:35 - Finalização do qBittorrent iniciada
+(I) 2023-04-29T02:04:35 - UPnP/NAT-PMP support: OFF
+(N) 2023-04-29T02:04:35 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-02T20:17:29 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-02T20:17:29 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-02T20:17:29 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-02T20:17:29 - ID do peer: "-qB4520-"
+(I) 2023-05-02T20:17:29 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-02T20:17:29 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-02T20:17:29 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-02T20:17:29 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-02T20:17:29 - Modo anônimo: DESLIGADO
+(I) 2023-05-02T20:17:29 - Suporte a criptografia: LIGADO
+(I) 2023-05-02T20:17:29 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-02T20:17:29 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-02T20:17:29 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "TCP/6881"
+(I) 2023-05-02T20:17:29 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "UTP/6881"
+(I) 2023-05-02T20:17:29 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Sat Apr 1 00:22:10 2023.
+(N) 2023-05-02T20:17:29 - Usando a interface de usuário da web embutida.
+(N) 2023-05-02T20:17:29 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-02T20:17:29 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-02T20:17:29 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(I) 2023-05-02T20:17:30 - Banco de dados da geo-localização dos IPs atualizado com sucesso.
+(I) 2023-05-02T20:17:30 - Detectado IP externo. IP: "179.177.172.232"
+(N) 2023-05-02T20:17:32 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-02T20:17:33 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-09T13:06:02 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-09T13:06:02 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-09T13:06:02 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-09T13:06:02 - ID do peer: "-qB4520-"
+(I) 2023-05-09T13:06:02 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-09T13:06:02 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-09T13:06:02 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-09T13:06:02 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-09T13:06:02 - Modo anônimo: DESLIGADO
+(I) 2023-05-09T13:06:02 - Suporte a criptografia: LIGADO
+(I) 2023-05-09T13:06:02 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-09T13:06:02 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-09T13:06:02 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "TCP/6881"
+(I) 2023-05-09T13:06:02 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "UTP/6881"
+(I) 2023-05-09T13:06:02 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-09T13:06:02 - Usando a interface de usuário da web embutida.
+(N) 2023-05-09T13:06:02 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-09T13:06:02 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-09T13:06:02 - Detectado IP externo. IP: "189.115.210.49"
+(N) 2023-05-09T13:06:04 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-09T13:06:05 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-09T15:38:26 - Finalização do qBittorrent iniciada
+(I) 2023-05-09T15:38:27 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-09T15:38:27 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T14:50:26 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T14:50:26 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T14:50:26 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T14:50:26 - ID do peer: "-qB4520-"
+(I) 2023-05-25T14:50:26 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T14:50:26 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T14:50:26 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T14:50:26 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T14:50:26 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T14:50:26 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T14:50:26 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T14:50:26 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T14:50:26 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "TCP/6881"
+(I) 2023-05-25T14:50:26 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "UTP/6881"
+(I) 2023-05-25T14:50:26 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T14:50:26 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T14:50:26 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T14:50:26 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T14:50:27 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T14:50:29 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T14:50:30 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T14:54:40 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T14:54:40 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T14:54:40 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T14:56:02 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T14:56:02 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T14:56:02 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T14:56:02 - ID do peer: "-qB4520-"
+(I) 2023-05-25T14:56:02 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T14:56:02 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T14:56:02 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T14:56:02 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T14:56:02 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T14:56:02 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T14:56:02 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T14:56:02 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T14:56:02 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T14:56:02 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T14:56:02 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T14:56:02 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T14:56:02 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T14:56:02 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T14:56:02 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T14:56:06 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T14:56:07 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T14:58:00 - Sucesso do login no WebAPI. IP: 192.0.0.2
+(N) 2023-05-25T17:29:38 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T17:29:38 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T17:29:38 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T18:45:58 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T18:45:58 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T18:45:58 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T18:45:58 - ID do peer: "-qB4520-"
+(I) 2023-05-25T18:45:58 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T18:45:58 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T18:45:58 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T18:45:58 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T18:45:58 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T18:45:58 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T18:45:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T18:45:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T18:45:58 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "TCP/6881"
+(I) 2023-05-25T18:45:58 - Êxito ao escutar no IP. IP: "172.18.0.3". Porta: "UTP/6881"
+(I) 2023-05-25T18:45:58 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T18:45:58 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T18:45:58 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T18:45:58 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T18:45:59 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T18:46:01 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T18:46:02 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T18:53:03 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T18:53:03 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T18:53:03 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T18:53:10 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T18:53:10 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T18:53:10 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T18:53:10 - ID do peer: "-qB4520-"
+(I) 2023-05-25T18:53:10 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T18:53:10 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T18:53:10 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T18:53:10 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T18:53:10 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T18:53:10 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T18:53:10 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T18:53:10 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T18:53:10 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T18:53:10 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T18:53:10 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T18:53:10 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T18:53:10 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T18:53:10 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T18:53:10 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T18:53:13 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T18:53:23 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T18:53:23 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T18:53:23 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T18:53:23 - ID do peer: "-qB4520-"
+(I) 2023-05-25T18:53:23 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T18:53:23 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T18:53:23 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T18:53:23 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T18:53:23 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T18:53:23 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T18:53:23 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T18:53:23 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T18:53:23 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T18:53:23 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T18:53:23 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T18:53:23 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T18:53:23 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T18:53:23 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T18:53:24 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T18:53:25 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T18:54:02 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:08:10 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T19:08:10 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T19:08:10 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T19:08:17 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:08:17 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:08:17 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:08:17 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:08:17 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:08:17 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:08:17 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:08:17 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:08:17 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:08:17 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:08:17 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:08:17 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:08:17 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "TCP/6881"
+(I) 2023-05-25T19:08:17 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "UTP/6881"
+(I) 2023-05-25T19:08:17 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:08:17 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:08:17 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:08:17 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:08:18 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:08:20 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:08:29 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:08:29 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:08:29 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:08:29 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:08:29 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:08:29 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:08:29 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:08:29 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:08:29 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:08:29 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:08:29 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:08:29 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:08:29 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "TCP/6881"
+(I) 2023-05-25T19:08:29 - Êxito ao escutar no IP. IP: "172.18.0.7". Porta: "UTP/6881"
+(I) 2023-05-25T19:08:29 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:08:29 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:08:29 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:08:29 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:08:29 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:08:35 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:09:03 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:16:31 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T19:16:31 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T19:16:31 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T19:16:43 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:16:43 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:16:43 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:16:43 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:16:43 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:16:43 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:16:43 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:16:43 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:16:43 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:16:43 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:16:43 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:16:43 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:16:43 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T19:16:43 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T19:16:43 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:16:43 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:16:43 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:16:43 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:16:43 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:16:45 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:16:47 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:16:58 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:16:58 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:16:58 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:16:58 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:16:58 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:16:58 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:16:58 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:16:58 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:16:58 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:16:58 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:16:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:16:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:16:58 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T19:16:58 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T19:16:58 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:16:58 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:16:58 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:16:58 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:16:59 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:17:01 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:17:56 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:18:25 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:18:37 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:19:10 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T19:19:10 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T19:19:10 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T19:19:22 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:19:22 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:19:22 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:19:22 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:19:22 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:19:22 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:19:22 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:19:22 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:19:22 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:19:22 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:19:22 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:19:22 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:19:22 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T19:19:22 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T19:19:22 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:19:22 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:19:22 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:19:22 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:19:23 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:19:25 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:19:27 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:19:39 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:19:39 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:19:39 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:19:39 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:19:39 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:19:39 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:19:39 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:19:39 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:19:39 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:19:39 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:19:39 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:19:39 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:19:39 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T19:19:39 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T19:19:39 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:19:39 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:19:39 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:19:39 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:19:40 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:19:41 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:19:45 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:27:59 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:28:00 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:29:20 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:29:21 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:34:27 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:35:03 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:35:03 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:35:03 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:35:03 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:35:03 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:35:03 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:35:03 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:35:03 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:35:03 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:35:03 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:35:03 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:35:03 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:35:03 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T19:35:03 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T19:35:03 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:35:03 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:35:03 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:35:03 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:35:04 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:35:06 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:35:08 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:36:15 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:36:18 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:36:18 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:36:18 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:36:18 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:36:18 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:36:18 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:36:18 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:36:18 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:36:18 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:36:18 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:36:18 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:36:18 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:36:18 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T19:36:18 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T19:36:18 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:36:18 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:36:18 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:36:18 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:36:18 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:36:45 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:36:46 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:46:05 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T19:46:05 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T19:46:05 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T19:47:35 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:47:35 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:47:35 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:47:35 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:47:35 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:47:35 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:47:35 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:47:35 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:47:35 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:47:35 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:47:35 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:47:35 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:47:35 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-05-25T19:47:35 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-05-25T19:47:35 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:47:35 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:47:35 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:47:35 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:47:35 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:47:37 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:47:40 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:47:53 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:47:53 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:47:53 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:47:54 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:47:54 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:47:54 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:47:54 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:47:54 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:47:54 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:47:54 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:47:54 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:47:54 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:47:54 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T19:47:54 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T19:47:54 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:47:54 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:47:54 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:47:54 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:47:54 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:47:56 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:47:57 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:58:47 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:58:47 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:58:47 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:58:47 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:58:47 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:58:47 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:58:47 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:58:47 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:58:47 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:58:47 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:58:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:58:47 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:58:47 - Êxito ao escutar no IP. IP: "172.18.0.5". Porta: "TCP/6881"
+(I) 2023-05-25T19:58:47 - Êxito ao escutar no IP. IP: "172.18.0.5". Porta: "UTP/6881"
+(I) 2023-05-25T19:58:47 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:58:47 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:58:47 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:58:47 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:58:47 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:58:49 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:58:52 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:58:58 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T19:58:58 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T19:58:58 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T19:58:58 - ID do peer: "-qB4520-"
+(I) 2023-05-25T19:58:58 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T19:58:58 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T19:58:58 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T19:58:58 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T19:58:58 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T19:58:58 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T19:58:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T19:58:58 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T19:58:58 - Êxito ao escutar no IP. IP: "172.18.0.5". Porta: "TCP/6881"
+(I) 2023-05-25T19:58:58 - Êxito ao escutar no IP. IP: "172.18.0.5". Porta: "UTP/6881"
+(I) 2023-05-25T19:58:58 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T19:58:58 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T19:58:58 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T19:58:58 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T19:58:58 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T19:59:00 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T19:59:06 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:29:55 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T20:29:55 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T20:29:55 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T20:29:55 - ID do peer: "-qB4520-"
+(I) 2023-05-25T20:29:55 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T20:29:55 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T20:29:55 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T20:29:55 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T20:29:55 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T20:29:55 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T20:29:55 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T20:29:55 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T20:29:55 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-05-25T20:29:55 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-05-25T20:29:55 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T20:29:55 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T20:29:55 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T20:29:55 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T20:29:55 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T20:29:57 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:30:00 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:30:13 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T20:30:13 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T20:30:13 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T20:30:13 - ID do peer: "-qB4520-"
+(I) 2023-05-25T20:30:13 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T20:30:13 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T20:30:13 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T20:30:13 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T20:30:13 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T20:30:13 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T20:30:13 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T20:30:13 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T20:30:13 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-05-25T20:30:13 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-05-25T20:30:13 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T20:30:13 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T20:30:13 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T20:30:13 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T20:30:14 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T20:30:16 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:30:17 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:36:27 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T20:36:40 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:03:59 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:03:59 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:03:59 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:03:59 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:03:59 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:03:59 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:03:59 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:03:59 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:03:59 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:03:59 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:03:59 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:03:59 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:03:59 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T21:03:59 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T21:03:59 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:03:59 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:03:59 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:03:59 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:03:59 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:04:02 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:04:04 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:04:13 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:04:13 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:04:13 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:04:14 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:04:14 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:04:14 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:04:14 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:04:14 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:04:14 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:04:14 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:04:14 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:04:14 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:04:14 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T21:04:14 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T21:04:14 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:04:14 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:04:14 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:04:14 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:04:14 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:04:16 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:04:17 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:07:06 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T21:07:06 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T21:07:06 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T21:07:18 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:07:18 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:07:18 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:07:18 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:07:18 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:07:18 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:07:18 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:07:18 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:07:18 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:07:18 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:07:18 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:07:18 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:07:18 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"
+(I) 2023-05-25T21:07:18 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "UTP/6881"
+(I) 2023-05-25T21:07:18 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:07:18 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:07:18 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:07:18 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:07:18 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:07:20 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:07:22 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:07:40 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:07:53 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:07:53 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:07:53 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:07:53 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:07:53 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:07:53 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:07:53 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:07:53 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:07:53 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:07:53 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:07:53 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:07:53 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:07:53 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T21:07:53 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T21:07:53 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:07:53 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:07:53 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:07:53 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:07:54 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:07:57 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:07:59 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T21:07:59 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T21:07:59 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T21:08:10 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:08:10 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:08:10 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:08:10 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:08:10 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:08:10 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:08:10 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:08:10 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:08:10 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:08:10 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:08:10 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:08:10 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:08:10 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T21:08:10 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T21:08:10 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:08:10 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:08:10 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:08:10 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(N) 2023-05-25T21:08:11 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(I) 2023-05-25T21:08:11 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:08:15 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:08:27 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:08:27 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:08:27 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:08:28 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:08:28 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:08:28 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:08:28 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:08:28 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:08:28 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:08:28 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:08:28 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:08:28 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:08:28 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T21:08:28 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T21:08:28 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:08:28 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:08:28 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:08:28 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:08:28 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:08:56 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:09:40 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:15:16 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T21:15:16 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T21:15:16 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T21:15:27 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:15:27 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:15:27 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:15:27 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:15:27 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:15:27 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:15:27 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:15:27 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:15:27 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:15:27 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:15:27 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:15:27 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:15:27 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "TCP/6881"
+(I) 2023-05-25T21:15:27 - Êxito ao escutar no IP. IP: "172.18.0.6". Porta: "UTP/6881"
+(I) 2023-05-25T21:15:27 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:15:27 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:15:27 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:15:27 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:15:28 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:15:30 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:15:32 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:15:38 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:15:38 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:15:38 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:15:38 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:15:38 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:15:38 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:15:38 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:15:38 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:15:38 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:15:38 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:15:38 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:15:38 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:15:38 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "TCP/6881"
+(I) 2023-05-25T21:15:38 - Êxito ao escutar no IP. IP: "172.18.0.4". Porta: "UTP/6881"
+(I) 2023-05-25T21:15:38 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: Mon May 1 00:23:20 2023.
+(N) 2023-05-25T21:15:38 - Usando a interface de usuário da web embutida.
+(N) 2023-05-25T21:15:38 - A tradução da interface de usuário da web pro idioma selecionado (pt_BR) foi carregada com sucesso.
+(N) 2023-05-25T21:15:38 - WebUI: Escutando agora no IP: torrent.server, porta: 8000
+(I) 2023-05-25T21:15:38 - Detectado IP externo. IP: "186.212.255.18"
+(N) 2023-05-25T21:15:40 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:15:46 - Sucesso do login no WebAPI. IP: 172.18.0.1
+(N) 2023-05-25T21:19:24 - Finalização do qBittorrent iniciada
+(I) 2023-05-25T21:19:24 - UPnP/NAT-PMP support: OFF
+(N) 2023-05-25T21:19:24 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-05-25T21:19:37 - qBittorrent v4.5.2 iniciado
+(N) 2023-05-25T21:19:37 - Usando diretório das configurações: /config/qBittorrent
+(N) 2023-05-25T21:19:37 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:6881,[::]:6881"
+(I) 2023-05-25T21:19:37 - ID do peer: "-qB4520-"
+(I) 2023-05-25T21:19:37 - Agente do Usuário HTTP: "qBittorrent/4.5.2"
+(I) 2023-05-25T21:19:37 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-05-25T21:19:37 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-05-25T21:19:37 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-05-25T21:19:37 - Modo anônimo: DESLIGADO
+(I) 2023-05-25T21:19:37 - Suporte a criptografia: LIGADO
+(I) 2023-05-25T21:19:37 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/6881"
+(I) 2023-05-25T21:19:37 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UTP/6881"
+(I) 2023-05-25T21:19:37 - Êxito ao escutar no IP. IP: "172.18.0.8". Porta: "TCP/6881"

@@ -1,0 +1,14 @@
+version: "2.1"
+	services:	portainer/portainer
+	  duckdns:	
+	    image: ghcr.io/linuxserver/duckdns	
+	    container_name: duckdns	
+	    environment:	
+	      - PUID=1000	
+	      - PGID=100	
+	      - TZ=America/Sao_Paulo	
+	      - SUBDOMAINS=fgm	
+	      - TOKEN=a24ba2c9-aa4d-4c00-b4de-db3baa414f94	
+	      - LOG_FILE=false	
+	    restart: unless-stopped	
+#

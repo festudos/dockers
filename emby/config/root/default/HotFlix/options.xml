@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnableArchiveMediaFiles>false</EnableArchiveMediaFiles>
+  <EnablePhotos>true</EnablePhotos>
+  <EnableRealtimeMonitor>false</EnableRealtimeMonitor>
+  <EnableMarkerDetection>false</EnableMarkerDetection>
+  <EnableMarkerDetectionDuringLibraryScan>false</EnableMarkerDetectionDuringLibraryScan>
+  <EnableChapterImageExtraction>true</EnableChapterImageExtraction>
+  <ExtractChapterImagesDuringLibraryScan>true</ExtractChapterImagesDuringLibraryScan>
+  <DownloadImagesInAdvance>false</DownloadImagesInAdvance>
+  <PathInfos>
+    <MediaPathInfo>
+      <Path>/mnt/share2/DataMyNetFlix/HFlix/1080p</Path>
+    </MediaPathInfo>
+  </PathInfos>
+  <IgnoreHiddenFiles>false</IgnoreHiddenFiles>
+  <IgnoreFileExtensions />
+  <SaveLocalMetadata>true</SaveLocalMetadata>
+  <SaveMetadataHidden>false</SaveMetadataHidden>
+  <SaveLocalThumbnailSets>true</SaveLocalThumbnailSets>
+  <ImportMissingEpisodes>false</ImportMissingEpisodes>
+  <ImportPlaylists>true</ImportPlaylists>
+  <EnableAutomaticSeriesGrouping>true</EnableAutomaticSeriesGrouping>
+  <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
+  <EnableAudioResume>false</EnableAudioResume>
+  <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
+  <PreferredMetadataLanguage>en</PreferredMetadataLanguage>
+  <PreferredImageLanguage>en</PreferredImageLanguage>
+  <ContentType>movies</ContentType>
+  <MetadataCountryCode>GB</MetadataCountryCode>
+  <SeasonZeroDisplayName>Specials</SeasonZeroDisplayName>
+  <Name>HotFlix</Name>
+  <MetadataSavers />
+  <DisabledLocalMetadataReaders>
+    <string>Nfo</string>
+  </DisabledLocalMetadataReaders>
+  <LocalMetadataReaderOrder>
+    <string>Nfo</string>
+  </LocalMetadataReaderOrder>
+  <DisabledLyricsFetchers />
+  <SaveLyricsWithMedia>true</SaveLyricsWithMedia>
+  <LyricsDownloadMaxAgeDays>0</LyricsDownloadMaxAgeDays>
+  <LyricsFetcherOrder />
+  <LyricsDownloadLanguages />
+  <DisabledSubtitleFetchers>
+    <string>Open Subtitles</string>
+  </DisabledSubtitleFetchers>
+  <SubtitleFetcherOrder>
+    <string>Open Subtitles</string>
+  </SubtitleFetcherOrder>
+  <SkipSubtitlesIfEmbeddedSubtitlesPresent>false</SkipSubtitlesIfEmbeddedSubtitlesPresent>
+  <SkipSubtitlesIfAudioTrackMatches>false</SkipSubtitlesIfAudioTrackMatches>
+  <SubtitleDownloadLanguages />
+  <SubtitleDownloadMaxAgeDays>14</SubtitleDownloadMaxAgeDays>
+  <RequirePerfectSubtitleMatch>true</RequirePerfectSubtitleMatch>
+  <SaveSubtitlesWithMedia>false</SaveSubtitlesWithMedia>
+  <ForcedSubtitlesOnly>true</ForcedSubtitlesOnly>
+  <TypeOptions>
+    <TypeOptions>
+      <Type>Movie</Type>
+      <MetadataFetchers />
+      <MetadataFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>TheTVDB</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers />
+      <ImageFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>TheTVDB</string>
+        <string>FanArt</string>
+        <string>The Open Movie Database</string>
+        <string>Screen Grabber</string>
+      </ImageFetcherOrder>
+      <ImageOptions>
+        <ImageOption>
+          <Type>Primary</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Art</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>BoxRear</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Banner</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Box</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Disc</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Logo</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Menu</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Thumb</Type>
+          <Limit>0</Limit>
+          <MinWidth>0</MinWidth>
+        </ImageOption>
+        <ImageOption>
+          <Type>Backdrop</Type>
+          <Limit>1</Limit>
+          <MinWidth>120800000</MinWidth>
+        </ImageOption>
+      </ImageOptions>
+    </TypeOptions>
+  </TypeOptions>
+  <CollapseSingleItemFolders>true</CollapseSingleItemFolders>
+  <EnableAdultMetadata>false</EnableAdultMetadata>
+  <ImportCollections>false</ImportCollections>
+  <MinCollectionItems>2</MinCollectionItems>
+  <MinResumePct>100</MinResumePct>
+  <MaxResumePct>100</MaxResumePct>
+  <MinResumeDurationSeconds>120000</MinResumeDurationSeconds>
+  <ThumbnailImagesIntervalSeconds>-1</ThumbnailImagesIntervalSeconds>
+  <SampleIgnoreSize>314572800</SampleIgnoreSize>
+</LibraryOptions>

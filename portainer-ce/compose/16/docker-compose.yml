@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare-tunnel
+    command: tunnel run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik56aGxOREZpWldJdE56VmpNUzAwTnpVMExUa3hORE10Wm1aa04yRTNNV0V6TmpCaCJ9
+    #volumes:
+      #- ./tunnel:/etc/cloudflared
+    restart: unless-stopped
+  tunnel-flix:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare-tunnel-flix
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiN2NlOWY0ZmItOGU1Yy00MzQzLTgyNWMtYTM5ZWZlNmRhN2ZlIiwicyI6IllXWmlOV1poWVRrdFlXVmpZaTAwWm1GakxUazNZek10WlRZelpERmxaRGczWWpBMCJ9
+    #volumes:
+      #- ./tunnel:/etc/cloudflared
+    restart: unless-stopped
+
+
+  tunnel-flix_radarr:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare-tunnel-flix_radar
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiMjFjZjgwYWUtNWVhNi00MjY0LThiNDAtMDA2ZTY2NzQ2OGM1IiwicyI6Ik1XRTJZMlUyTWpndE16ZGxaaTAwTWprNUxUbGlObUV0TlRRMU9XWTNOek5pTkdOaSJ9
+    #volumes:
+      #- ./tunnel:/etc/cloudflared
+    restart: unless-stopped
+   
+    
+    
+    
+    #
+
+# eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiMjFjZjgwYWUtNWVhNi00MjY0LThiNDAtMDA2ZTY2NzQ2OGM1IiwicyI6Ik1XRTJZMlUyTWpndE16ZGxaaTAwTWprNUxUbGlObUV0TlRRMU9XWTNOek5pTkdOaSJ9
+    
+   

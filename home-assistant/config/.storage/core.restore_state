@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.butt",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "butt",
+          "user_id": "3e06bde8c49842739e2f585ca3c66f68",
+          "friendly_name": "butt"
+        },
+        "last_changed": "2022-08-12T10:57:00.848531+00:00",
+        "last_updated": "2022-08-12T10:57:08.434500+00:00",
+        "context": {
+          "id": "01GA8V6RAJYFMTC09DN5EDJNYP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-12T21:17:41.309682+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.controller_rgb_e00e24_restart",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Controller RGB E00E24 Restart"
+        },
+        "last_changed": "2022-08-12T10:57:08.429177+00:00",
+        "last_updated": "2022-08-12T10:57:08.429177+00:00",
+        "context": {
+          "id": "01GA8V6RADA854NE7Q94641B9D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-12T21:17:41.309682+00:00"
+    }
+  ]
+}

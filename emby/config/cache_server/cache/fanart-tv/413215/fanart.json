@@ -1,0 +1,168 @@
+{
+    "name": "Tulsa King",
+    "thetvdb_id": "413215",
+    "hdclearart": [
+        {
+            "id": "159591",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdclearart/tulsa-king-637f2707702bb.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "162247",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdclearart/tulsa-king-63a8d36474b35.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "162246",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdclearart/tulsa-king-63a8d361f28f4.png",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "hdtvlogo": [
+        {
+            "id": "159592",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-637f271b401db.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "160891",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-63944f00ee6ed.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "158028",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-635a9a8952fb5.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "157590",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-634d7123937fd.png",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "162245",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-63a8d3512fbb8.png",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "162244",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/hdtvlogo/tulsa-king-63a8d34f7faac.png",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "seasonposter": [
+        {
+            "id": "160887",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/seasonposter/tulsa-king-63944cfa7bdab.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "1"
+        }
+    ],
+    "seasonthumb": [
+        {
+            "id": "160888",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/seasonthumb/tulsa-king-63944d0f2639e.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "1"
+        }
+    ],
+    "showbackground": [
+        {
+            "id": "160889",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/showbackground/tulsa-king-63944d228ef8a.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "1"
+        },
+        {
+            "id": "158031",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/showbackground/tulsa-king-635a9aba637f9.jpg",
+            "lang": "",
+            "likes": "0",
+            "season": "all"
+        },
+        {
+            "id": "157592",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/showbackground/tulsa-king-634d7141a618a.jpg",
+            "lang": "",
+            "likes": "0",
+            "season": "all"
+        }
+    ],
+    "seasonbanner": [
+        {
+            "id": "160890",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/seasonbanner/tulsa-king-63944d353f85e.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "1"
+        }
+    ],
+    "characterart": [
+        {
+            "id": "162248",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/characterart/tulsa-king-63a8d37adec57.png",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "tvthumb": [
+        {
+            "id": "163920",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvthumb/tulsa-king-63c25a73ca1aa.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "158961",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvthumb/tulsa-king-63728fdcc123d.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "tvbanner": [
+        {
+            "id": "163892",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvbanner/tulsa-king-63c225494eec5.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "158962",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvbanner/tulsa-king-63728ff105a56.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "tvposter": [
+        {
+            "id": "158030",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvposter/tulsa-king-635a9aa97b059.jpg",
+            "lang": "00",
+            "likes": "0"
+        },
+        {
+            "id": "158029",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvposter/tulsa-king-635a9a9730dad.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "157591",
+            "url": "http://assets.fanart.tv/fanart/tv/413215/tvposter/tulsa-king-634d712fb000b.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "name": "Empire of Light",
+    "tmdb_id": "814757",
+    "imdb_id": "tt14402146",
+    "moviedisc": [
+        {
+            "id": "390114",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviedisc/empire-of-light-63f7c2d26a7cd.png",
+            "lang": "en",
+            "likes": "3",
+            "disc": "1",
+            "disc_type": "bluray"
+        },
+        {
+            "id": "390113",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviedisc/empire-of-light-63f7c2cfcfb0b.png",
+            "lang": "en",
+            "likes": "2",
+            "disc": "1",
+            "disc_type": "bluray"
+        }
+    ],
+    "moviebanner": [
+        {
+            "id": "390116",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviebanner/empire-of-light-63f7c2f346b3a.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "391426",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviebanner/empire-of-light-640cab42d0bcb.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "movieposter": [
+        {
+            "id": "390159",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/movieposter/empire-of-light-63f86637e8dba.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "381490",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/movieposter/empire-of-light-637a552fe3aa2.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "381491",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/movieposter/empire-of-light-637a553f3cb2c.jpg",
+            "lang": "00",
+            "likes": "1"
+        },
+        {
+            "id": "381492",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/movieposter/empire-of-light-637a554b88181.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "381493",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/movieposter/empire-of-light-637a5559a5412.jpg",
+            "lang": "00",
+            "likes": "1"
+        }
+    ],
+    "moviethumb": [
+        {
+            "id": "388705",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviethumb/empire-of-light-63e57180adcfc.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "388596",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviethumb/empire-of-light-63e287a93bf87.jpg",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "moviebackground": [
+        {
+            "id": "390115",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviebackground/empire-of-light-63f7c2e4cab05.jpg",
+            "lang": "",
+            "likes": "2"
+        },
+        {
+            "id": "381494",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/moviebackground/empire-of-light-637a55696edce.jpg",
+            "lang": "",
+            "likes": "1"
+        }
+    ],
+    "hdmovielogo": [
+        {
+            "id": "381488",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/hdmovielogo/empire-of-light-637a551132028.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "390865",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/hdmovielogo/empire-of-light-6400cf91e440b.png",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "381489",
+            "url": "http://assets.fanart.tv/fanart/movies/814757/hdmovielogo/empire-of-light-637a5520a35c9.png",
+            "lang": "en",
+            "likes": "0"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "12758d33692843afa8a49a8eb58e7617",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "316abf17a38eea886c6c2557023e6d93",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b4b35e20d903d8d4e990c435d1f3bb49",
+        "version": 1,
+        "domain": "flux_led",
+        "title": "Controller RGB E00E24",
+        "data": {
+          "host": "200.200.200.6",
+          "remote_access_enabled": true,
+          "remote_access_host": "ra8816us02.magichue.net",
+          "remote_access_port": 8816,
+          "minor_version": 72,
+          "model": "AK001-ZJ2146",
+          "model_num": 51,
+          "model_info": "ZG-BL",
+          "model_description": "Controller RGB"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "dhcp",
+        "unique_id": "b4:e8:42:e0:0e:24",
+        "disabled_by": null
+      }
+    ]
+  }
+}

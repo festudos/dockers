@@ -1,0 +1,7 @@
+kserver.butt.        IN  SOA dns.kserver.butt. media.kserver.butt. 2023100216 7200 3600 1209600 3600
+gateway.kserver.butt.   IN 	A	200.200.200.1
+dns.kserver.butt.	IN	A	200.200.200.2:53
+emby.kserver.butt.	IN	A	200.200.200.2:8000
+portainer.kserver.butt.	IN	A	200.200.200.2:9000
+server.kserver.butt.	IN	CNAME	portainer.kserver.butt
+

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  php:
+    image: fabiojanio/php:8.0-alpine3.14
+    labels:
+      - traefik.http.routers.php.rule=Host(`meu-app.server`)
+    volumes:
+      - /home/butt/Docker/meu-app/src/:/app
+    working_dir: /app
+    restart: on-failure
+    user: www-data
+    command: sh -c "php -S 0.0.0.0:80 index.php"
+
+networks:
+  default:
+    external:
+      name: dns-net

@@ -1,0 +1,34 @@
+#!/bin/bash
+# https://www.kasmweb.com/docs/latest/upgrade/single_server_upgrade.html
+
+KASM_YAML="arquivo"
+PESQUISA="service"
+TEXT_TUNNEL="  
+  tunnel-kasm: # adicionado Manualmente
+    image: cloudflare/cloudflared:latest
+    container_name: tunnel_net_kasm
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiMjFjZjgwYWUtNWVhNi00MjY0LThiNDAtMDA2ZTY2NzQ2OGM1IiwicyI6Ik1XRTJZMlUyTWpndE16ZGxaaTAwTWprNUxUbGlObUV0TlRRMU9XWTNOek5pTkdOaSJ9
+    restart: always
+    "
+textao=$(cat "arquivo")
+echo $textao
+exit
+
+#function addicionar() { #[arquivo] [pesquisa] [novo]
+	
+  	provisorio="pro"
+  	touch $provisorio
+	
+  # LER LINHA A LINHA
+  while read -r linha; do
+	echo  "1- $linha" 
+        echo $linha >> "$provisorio"
+#	printf "%s\n"  "$linha" | tee -a "$provisorio"
+       if [[ "$linha" == *"$PESQUISA"* ]]; then echo  "$TEXT_TUNNEL" >> "$provisorio" ; fi
+  done < $textao
+  #sudo mv "$1" "$1-bkp"
+  #sudo mv "$provisorio" "$1"
+#}
+
+#addicionar $KASM_YAML $PESQUISA $TEXT_TUNNEL
+

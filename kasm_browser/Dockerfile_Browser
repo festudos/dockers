@@ -1,0 +1,22 @@
+FROM ubuntu:22.04
+
+# set version label
+ARG BUILD_DATE "20/06/2023"
+ARG VERSION "1"
+ARG RADARR_RELEASE
+LABEL build_version "butt.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="EL Butt"
+
+# environment settings
+WORKDIR /tmp
+USER root
+RUN apt update
+RUN apt upgrade -y
+RUN apt install -y curl tar python3 docker.io apt-utils lsof
+RUN curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.12.0.d4fd8a.tar.gz
+RUN tar -xf kasm_release_1.12.0.d4fd8a.tar.gz
+RUN bash kasm_release/install.sh --accept-eula --swap-size 4096
+
+# ports and volumes
+EXPOSE 3000 443
+ENTRYPOINT [ "/bin/bash" ]

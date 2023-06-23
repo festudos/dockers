@@ -1,0 +1,9 @@
+emby/config/cache_server/cache/images/
+emby/config/logs/*
+emby/config/logs
+nextcloud/*
+DockerW_28.03/*
+NodeJS/*
+*.jpg
+*.gif
+.git/*

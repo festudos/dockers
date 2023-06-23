@@ -1,0 +1,41 @@
+version: '3'
+services:
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    labels:
+    - traefik.http.routers.portainer.rule=Host(`portainer.localhost`)
+    - traefik.http.services.portainer.loadbalancer.server.port=9000
+    - traefik.http.routers.portainer.tls=true
+    #- traefik.http.routers.portainer.entrypoints=entryhttps
+    #- traefik.http.routers.portainer.certresolver=certresolver# em traefik.yml
+    environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=America/Sao_paulo
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    - /home/butt/Docker/portainer-ce/conf:/data
+    ports:
+    - 9000:9000
+    restart: always
+
+  tunnel-bridge:
+    image: cloudflare/cloudflared:latest
+    container_name: tunnel_net_bridge
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik56aGxOREZpWldJdE56VmpNUzAwTnpVMExUa3hORE10Wm1aa04yRTNNV0V6TmpCaCJ9
+    restart: always
+
+  duckdns:
+    image: ghcr.io/linuxserver/duckdns
+    container_name: duckdns_net_bridge
+    environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=America/Sao_Paulo
+    - SUBDOMAINS=buttserver
+    - TOKEN=a24ba2c9-aa4d-4c00-b4de-db3baa414f94
+    - LOG_FILE=false
+    # volumes:	Remover
+    #- E:/Docker/DuckDns/config:/config
+    restart: unless-stopped

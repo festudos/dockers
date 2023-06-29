@@ -1,6 +1,6 @@
 version: '3'
 services:
-# conect uServer - join portainer-ce
+# conect bServer - join portainer-ce
   tunnel-bridge:
     image: cloudflare/cloudflared:latest
     container_name: tunnel_net_bridge

@@ -1,5 +1,6 @@
-----					
-[Portainer](	https://docs.portainer.io/start/install-ce/server/docker/wcs		)]
+
+
+[Portainer](	https://docs.portainer.io/start/install-ce/server/docker/wcs		)
 [Portainer](	https://classic.yarnpkg.com/en/docs/install#mac-stable			)
 [Portainer](	https://documentation.portainer.io/contributing/tools-linux/			)
 ----
@@ -7,12 +8,12 @@
 ```bash					
 sudo docker network create dns-net && \				
 sudo docker run -d \
-	-p 9002:8000 -p 9000:9000 
-	--name portainer 
-	--network dns-net 
-	-v /var/run/docker.sock:/var/run/docker.sock 
-	-v /media/butt/Arquivos/Docker/portainer-ce/conf:/data
-	--restart always 
+	-p 9002:8000 -p 9000:9000 \
+	--name portainer \
+	--network dns-net \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	-v /media/butt/Arquivos/Docker/portainer-ce/conf:/data \
+	--restart always \
 	portainer/portainer-ce				
 ```					
 # YAML					

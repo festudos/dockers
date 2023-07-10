@@ -1,0 +1,47 @@
+ARG BASE_FOLDER="./cp_files"
+ARG BASE_TAG="develop"
+ARG BASE_IMAGE="core-ubuntu-jammy"
+ARG USER_NAME="sentinel"
+FROM kasmweb/$BASE_IMAGE:$BASE_TAG
+
+USER root
+
+LABEL maintainer "LAB S1"
+
+ENV HOME /home/kasm-default-profile
+ENV STARTUPDIR /dockerstartup
+WORKDIR $HOME
+
+
+### Envrionment config
+ENV DEBIAN_FRONTEND=noninteractive \
+    SKIP_CLEAN=true \
+    KASM_RX_HOME=$STARTUPDIR/kasmrx \
+    DONT_PROMPT_WSL_INSTALL="No_Prompt_please" \
+    INST_DIR=$STARTUPDIR/install \
+    INST_SCRIPTS="$INST_DIR/AA/install_tools_initial.sh \
+                  /ubuntu/install/chrome/install_chrome.sh \
+                  /ubuntu/install/cleanup/cleanup.sh"
+
+# Copy install scripts
+COPY ./src/ $INST_DIR
+COPY $BASE_FOLDER/* $INST_DIR/AA/
+
+# Run installations
+RUN \
+  for SCRIPT in $INST_SCRIPTS; do \
+    bash ${INST_DIR}${SCRIPT}; \
+  done && \
+  $STARTUPDIR/set_user_permission.sh $HOME && \
+  rm -f /etc/X11/xinit/Xclients && \
+  chown 1000:0 $HOME && \
+  mkdir -p /home/$USER_NAME && \
+  chown -R 1000:0 /home/$USER_NAME && \
+  rm -Rf ${INST_DIR}
+
+# Userspace Runtime
+ENV HOME /home/$USER_NAME
+WORKDIR $HOME
+USER 1000
+
+CMD ["--tail-log"]

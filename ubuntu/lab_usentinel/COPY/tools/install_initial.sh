@@ -10,13 +10,12 @@ function f_Exec_Linha() { # [COMMAND]
     fi
 }
 COMMANDOS=(
-'apt-get install -y vlc'
-'apt-get install -y git'
-'apt-get install -y tmux'
+'apt-get update'
+'apt-get upgrade -y'
+'apt-get install -y net-tools ethtool  curl  wget  htop'
+'apt-get install -y zsh zsh-autosuggestions zsh-syntax-highlighting'
 )
 for COMMAND in "${COMMANDOS[@]}"
 do
     f_Exec_Linha
 done
-
-

@@ -12,9 +12,9 @@ fi
 
 if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8) ]]; then
   if [ ! -z "${CHROME_VERSION}" ]; then
-    wget https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-${CHROME_VERSION}.x86_64.rpm -O chrome.rpm
+    wget -q https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-${CHROME_VERSION}.x86_64.rpm -O chrome.rpm
   else
-    wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -O chrome.rpm
+    wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -O chrome.rpm
   fi
   if [[ "${DISTRO}" == @(oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8) ]]; then
     dnf localinstall -y chrome.rpm
@@ -30,7 +30,7 @@ if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9
   rm chrome.rpm
 elif [ "${DISTRO}" == "opensuse" ]; then
   zypper ar http://dl.google.com/linux/chrome/rpm/stable/x86_64 Google-Chrome
-  wget https://dl.google.com/linux/linux_signing_key.pub
+  wget -q https://dl.google.com/linux/linux_signing_key.pub
   rpm --import linux_signing_key.pub
   rm linux_signing_key.pub
   zypper install -yn google-chrome-stable
@@ -40,9 +40,9 @@ elif [ "${DISTRO}" == "opensuse" ]; then
 else
   apt-get update
   if [ ! -z "${CHROME_VERSION}" ]; then
-    wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb -O chrome.deb
+    wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb -O chrome.deb
   else
-    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
+    wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
   fi
   apt-get install -y ./chrome.deb
   rm chrome.deb

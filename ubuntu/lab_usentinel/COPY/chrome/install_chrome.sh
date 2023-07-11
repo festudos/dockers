@@ -38,7 +38,7 @@ elif [ "${DISTRO}" == "opensuse" ]; then
     zypper clean --all
   fi
 else
-  apt-get update
+  apt-get update chown1>& /dev/null 
   if [ ! -z "${CHROME_VERSION}" ]; then
     wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb -O chrome.deb
   else

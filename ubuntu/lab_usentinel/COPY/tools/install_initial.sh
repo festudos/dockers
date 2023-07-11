@@ -1,21 +1,35 @@
 #!/usr/bin/env bash
 set -ex
-declare COMMAND
-function f_Exec_Linha() { # [COMMAND]
-    
-    if ! eval $COMMAND 1>& /dev/null ; then 
-        echo -e  "\n\t\e[0;36;1m$COMMAND\e[0m\t[""\e[5;31;1mERRO\e[0m""]" 
-    else
-        echo -e  "\n\t\e[0;36;1m$COMMAND\e[0m\t[""\e[0;34;1mOK\e[0m""]"
-    fi
+function f_Exec_Eval() { 
+    for COMMAND in "${COMMANDOS_ARRAY[@]}";
+    do 
+        if ! eval $COMMAND 1>& /dev/null ;
+        then 
+            echo -e  "\n\t\e[0;36;1m$COMMAND\e[0m\t[""\e[5;31;1mERRO\e[0m""]" 
+            echo -e  "$COMMAND\t[ERRO]" >> dockerfile_erros.txt 
+        else 
+            echo -e  "\n\t\e[0;36;1m$COMMAND\e[0m\t[""\e[0;34;1mOK\e[0m""]" 
+        fi 
+    done 
 }
-COMMANDOS=(
-'apt-get update'
-'apt-get upgrade -y'
-'apt-get install -y net-tools ethtool  curl  wget  htop'
-'apt-get install -y zsh zsh-autosuggestions zsh-syntax-highlighting'
+
+GET_APT="apt-get install -y "
+
+
+
+COMMANDOS_ARRAY=(
+"apt-get update"
+"apt-get upgrade -y"
+"${GET_APT} net-tools"
+"${GET_APT} ethtool"
+"${GET_APT} curl"
+"${GET_APT} wget"
+"${GET_APT} htop"
+"${GET_APT} zsh"
+"${GET_APT} zsh-autosuggestions"
+"${GET_APT} zsh-syntax-highlighting"
 )
-for COMMAND in "${COMMANDOS[@]}"
-do
-    f_Exec_Linha
-done
+
+
+
+f_Exec_Eval

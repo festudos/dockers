@@ -1,19 +1,17 @@
 
-
-
-
-
 ARG BASE_TAG="develop"
 ARG BASE_IMAGE="core-ubuntu-jammy"
 FROM kasmweb/$BASE_IMAGE:$BASE_TAG
 
 USER root
-
-ENV HOME /home/kasm-default-profile
-ENV STARTUPDIR /dockerstartup
-WORKDIR $HOME
-
 ### Envrionment config
+ENV \
+  HOME /home/kasm-default-profile \
+  U_HOME /home/kasm-user \
+  STARTUPDIR /dockerstartup \
+  VAR_DE_TESTE /home/de/cu/e/rola \
+  X_CLIENTES /etc/X11/xinit/Xclients
+
 ENV DEBIAN_FRONTEND=noninteractive \
     SKIP_CLEAN=true \
     KASM_RX_HOME=$STARTUPDIR/kasmrx \
@@ -23,29 +21,26 @@ ENV DEBIAN_FRONTEND=noninteractive \
                   /tools/install_tools_deluxe.sh \
                   /chrome/install_chrome.sh \
                   /cleanup/cleanup.sh \
-                  /tools/install_end.sh"
+                  /tools/install_end.sh \
+                  /tools/configure.sh" 
+WORKDIR $HOME
 
 # Copy install scripts
 COPY ./COPY $INST_DIR
-# COPY ./COPY/group /etc/group
+COPY ./COPY/install_s1.sh ${U_HOME}/Desktop/install_s1.sh
+RUN chmod 777 ${U_HOME}/Desktop/install_s1.sh
+COPY ./COPY/install_s1.sh ${U_HOME}/Desktop/SentinelAgent_linux_v23_1_2_9.deb
+
 RUN usermod -a kasm-user -G sudo
 RUN passwd -d kasm-user
-COPY ./COPY/conf_copy_.zshrc ~/.zshrc
+
 # Run installations
 RUN \
   for SCRIPT in $INST_SCRIPTS; do \
     bash ${INST_DIR}${SCRIPT}; \
   done
-RUN \ 
-  chown 1000:1000 $HOME && \
-  mkdir -p /home/kasm-user && \
-  chown -R 1000:1000 /home/kasm-user 
-  #rm -f /etc/X11/xinit/Xclients 
- # rm -Rf ${INST_DIR} 
-
+RUN rm -dr ${STARTUPDIR}
 # Userspace Runtime
-ENV HOME /home/kasm-user
-WORKDIR $HOME
+WORKDIR $U_HOME
 USER 1000
-
 CMD ["--tail-log"]

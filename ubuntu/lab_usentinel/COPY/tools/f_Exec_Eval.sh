@@ -12,24 +12,3 @@ function f_Exec_Eval() {
         fi 
     done 
 }
-
-GET_APT="apt-get install -y "
-
-
-
-COMMANDOS_ARRAY=( #"${GET_APT} vlc"
-"${GET_APT} git"
-"${GET_APT} tmux"
-)
-
-
-
-
-
-
-
-
-
-
-
-f_Exec_Eval

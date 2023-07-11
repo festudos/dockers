@@ -13,18 +13,18 @@ function f_Exec_Eval() {
     done 
 }
 
-GET_APT="apt-get install -y "
 
 
 
-COMMANDOS_ARRAY=( #"${GET_APT} vlc"
-"${GET_APT} git"
-"${GET_APT} tmux"
+
+COMMANDOS_ARRAY=(
+"mkdir -p ${U_HOME}"
+"chown kasm-user:kasm-user ${HOME}"
+"chown -R kasm-user:kasm-user ${U_HOME}"
+"cp $INST_DIR/tools/conf_copy_.zshrc ${U_HOME}/.zshrc"
+"if [ -f ${X_CLIENTES} ]; then rm -f $X_CLIENTES;fi "
+"echo ${VAR_DE_TESTE}"
 )
-
-
-
-
 
 
 

@@ -18,14 +18,14 @@ ENV \
     DEBIAN_FRONTEND=noninteractive \
     DONT_PROMPT_WSL_INSTALL=No_Prompt_please \
     SCRIPT_LIST="/tools/install_initial.sh \
+                  /tools/configure.sh \
                   /chrome/install_chrome.sh \
                   /cleanup/cleanup.sh \
                   /tools/install_end.sh \
-                  /tools/configure.sh \
                   /install_s1.sh" 
 WORKDIR /dockerstartup
 COPY ./COPY /dockerstartup/install
-
+RUN echo 'sentinel_v23.1.2.9' | tee /etc/hostname
 # Run installations
 RUN \
   for SCRIPT in $SCRIPT_LIST; do \
@@ -33,6 +33,7 @@ RUN \
   done
 # Troca o nome do User
 RUN usermod -l sentinel_v23.1.2.9 kasm-user
+RUN rm -rd /dockerstartup/install
 
 # Userspace Runtime
 ENV HOME=/home/kasm-user

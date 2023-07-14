@@ -1,56 +1,58 @@
 #!/usr/bin/env bash
 set -ex
+function f_Exec_Eval() { 
+    for COMMAND in "${COMMANDOS_ARRAY[@]}";
+    do 
+        LETRAS="$COMMAND                                                  " # <<<
+        LETRAS="${LETRAS:0:50}"
+        if [ "${COMMAND:0:4}" = "echo" ]
+        then echo -e "\n\t \e[0;33;1m ${COMMAND:4}\e[0m "
+        elif ! eval $COMMAND 1>& /dev/null ;
+        then echo -e  "\n\t\e[0;36;1m$LETRAS\e[0m\t[""\e[5;31;1mERRO\e[0m""]" 
+        else echo -e  "\n\t\e[0;36;1m$LETRAS\e[0m\t[""\e[0;34;1mOK\e[0m""]" 
+        fi 
+    done 
+}
 
-# Distro package cleanup
-if [[ "${DISTRO}" == @(centos|oracle7) ]] ; then
-  yum clean all
-elif [[ "${DISTRO}" == @(almalinux8|almalinux9|fedora37|oracle8|oracle9|rockylinux8|rockylinux9) ]]; then
-  dnf clean all
-elif [ "${DISTRO}" == "opensuse" ]; then
-  zypper clean --all
-elif [[ "${DISTRO}" == @(debian|kali|parrotos5|ubuntu) ]]; then
-  apt-get autoremove -y
-  apt-get autoclean -y
-fi
+COMMANDOS_ARRAY=(
+"echo 'File cleanups'" 
+"rm -Rf /home/kasm-default-profile/.cache" 
+"rm -Rf /home/kasm-user/.cache" 
+"rm -Rf /tmp" 
+"rm -Rf /var/lib/apt/lists/*" 
+"rm -Rf /var/tmp/*" 
+"mkdir -m 777 /tmp"
+"echo 'Services we dont want to start disable in xfce init'" 
+"rm -f /etc/xdg/autostart/blueman.desktop" 
+"rm -f /etc/xdg/autostart/geoclue-demo-agent.desktop" 
+"rm -f /etc/xdg/autostart/gnome-keyring-pkcs11.desktop" 
+"rm -f /etc/xdg/autostart/gnome-keyring-secrets.desktop" 
+"rm -f /etc/xdg/autostart/gnome-keyring-ssh.desktop " 
+"rm -f /etc/xdg/autostart/gnome-shell-overrides-migration.desktop" 
+"rm -f /etc/xdg/autostart/light-locker.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.UsbProtection.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.Wwan.desktop" 
+"rm -f /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop" 
+"rm -f /etc/xdg/autostart/pulseaudio.desktop" 
+"rm -f /etc/xdg/autostart/xfce4-power-manager.desktop" 
+"rm -f /etc/xdg/autostart/xfce4-screensaver.desktop" 
+"rm -f /etc/xdg/autostart/xfce-polkit.desktop" 
+"rm -f /etc/xdg/autostart/xscreensaver.desktop"
+)
 
-# File cleanups
-rm -Rf \
-  /home/kasm-default-profile/.cache \
-  /home/kasm-user/.cache \
-  /tmp \
-  /var/lib/apt/lists/* \
-  /var/tmp/*
-mkdir -m 1777 /tmp
-
-# Services we don't want to start disable in xfce init
-rm -f \
-  /etc/xdg/autostart/blueman.desktop \
-  /etc/xdg/autostart/geoclue-demo-agent.desktop \
-  /etc/xdg/autostart/gnome-keyring-pkcs11.desktop \
-  /etc/xdg/autostart/gnome-keyring-secrets.desktop \
-  /etc/xdg/autostart/gnome-keyring-ssh.desktop \
-  /etc/xdg/autostart/gnome-shell-overrides-migration.desktop \
-  /etc/xdg/autostart/light-locker.desktop \
-  /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.UsbProtection.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.Wwan.desktop \
-  /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop \
-  /etc/xdg/autostart/pulseaudio.desktop \
-  /etc/xdg/autostart/xfce4-power-manager.desktop \
-  /etc/xdg/autostart/xfce4-screensaver.desktop \
-  /etc/xdg/autostart/xfce-polkit.desktop \
-  /etc/xdg/autostart/xscreensaver.desktop
+f_Exec_Eval

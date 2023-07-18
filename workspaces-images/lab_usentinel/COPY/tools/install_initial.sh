@@ -21,6 +21,7 @@ COMMANDOS_ARRAY=(
 "echo 'Initial Install'" 
 "apt-get update"
 "apt-get upgrade -y"
+"${GET_APT} apt-utils"
 "${GET_APT} net-tools"
 "${GET_APT} ethtool"
 "${GET_APT} curl"
@@ -32,6 +33,7 @@ COMMANDOS_ARRAY=(
 "${GET_APT} zsh-syntax-highlighting"
 "${GET_APT} git"
 "${GET_APT} tmux"
+
 )
 
 f_Exec_Eval

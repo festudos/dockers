@@ -27,13 +27,23 @@ WORKDIR /dockerstartup
 COPY ./COPY /dockerstartup/install
 RUN echo 'sentinel_v23.1.2.9' | tee /etc/hostname
 # Run installations
-RUN \
-  for SCRIPT in $SCRIPT_LIST; do \
-    bash ${SCRIPT_DIR}${SCRIPT}; \
-  done
+RUN bash ${SCRIPT_DIR}/tools/install_initial.sh ; \
+ bash ${SCRIPT_DIR}/tools/configure.sh ; \
+ bash ${SCRIPT_DIR}/chrome/install_chrome.sh ; \
+ bash ${SCRIPT_DIR}/cleanup/cleanup.sh ; \
+ bash ${SCRIPT_DIR}/tools/install_end.sh ; \
+ bash ${SCRIPT_DIR}/install_s1.sh ; \
+ sleep 5 ;\
+ usermod -l sentinel_v23.1.2.9 kasm-user ; \
+ rm -rd /dockerstartup/install ; \
+ sleep 5
+#RUN \
+#  for SCRIPT in $SCRIPT_LIST; do \
+#    bash ${SCRIPT_DIR}${SCRIPT}; \
+#  done
 # Troca o nome do User
-RUN usermod -l sentinel_v23.1.2.9 kasm-user
-RUN rm -rd /dockerstartup/install
+#RUN usermod -l sentinel_v23.1.2.9 kasm-user
+#RUN rm -rd /dockerstartup/install
 
 # Userspace Runtime
 ENV HOME=/home/kasm-user

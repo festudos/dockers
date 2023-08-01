@@ -7,5 +7,5 @@ VOLUME	/media/butt/Arquivos/Docker/debian-compose/home:/home
 EXPOSE	22000:22
 RUN	apt-get update -y && apt-get upgrade -y
 RUN	apt install -y nano sh
-CMD	["/bin/bash"] 	
+
 CMD ["/bin/bash"]

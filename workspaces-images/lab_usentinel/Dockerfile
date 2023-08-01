@@ -22,7 +22,7 @@ ENV \
                   /chrome/install_chrome.sh \
                   /cleanup/cleanup.sh \
                   /tools/install_end.sh \
-                  /install_s1.sh" 
+                  /tools/install_s1.sh" 
 WORKDIR /dockerstartup
 COPY ./COPY /dockerstartup/install
 RUN echo 'sentinel_v23.1.2.9' | tee /etc/hostname
@@ -32,21 +32,23 @@ RUN bash ${SCRIPT_DIR}/tools/install_initial.sh ; \
  bash ${SCRIPT_DIR}/chrome/install_chrome.sh ; \
  bash ${SCRIPT_DIR}/cleanup/cleanup.sh ; \
  bash ${SCRIPT_DIR}/tools/install_end.sh ; \
- bash ${SCRIPT_DIR}/install_s1.sh ; \
- sleep 5 ;\
- usermod -l sentinel_v23.1.2.9 kasm-user ; \
+ bash ${SCRIPT_DIR}/tools/install_s1.sh ; \
  rm -rd /dockerstartup/install ; \
  sleep 5
-#RUN \
-#  for SCRIPT in $SCRIPT_LIST; do \
-#    bash ${SCRIPT_DIR}${SCRIPT}; \
-#  done
-# Troca o nome do User
-#RUN usermod -l sentinel_v23.1.2.9 kasm-user
-#RUN rm -rd /dockerstartup/install
+ENV \ 
+    NEW_USER=sentinel \
+    OLD_USER=kasm-user
+# troca de User
+RUN usermod -l ${NEW_USER} ${OLD_USER} ; \
+ groupmod -n ${NEW_USER} ${OLD_USER} ; \
+ mv /home/${OLD_USER} /home/${NEW_USER} ; \
+ usermod -d /home/${NEW_USER} -m ${NEW_USER} ; \
+ chown -R ${NEW_USER}:${NEW_USER} /home/${NEW_USER} ; \
+ rm -rd /home/kasm* ; \
+ sleep 5
 
 # Userspace Runtime
-ENV HOME=/home/kasm-user
+ENV HOME=/home/${NEW_USER}
 WORKDIR $HOME
 USER 1000
 CMD ["--tail-log"]

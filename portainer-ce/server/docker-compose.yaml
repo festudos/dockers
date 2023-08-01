@@ -20,12 +20,6 @@ services:
     - 9000:9000
     restart: always
 
-  tunnel-bridge:
-    image: cloudflare/cloudflared:latest
-    container_name: tunnel_net_bridge
-    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik56aGxOREZpWldJdE56VmpNUzAwTnpVMExUa3hORE10Wm1aa04yRTNNV0V6TmpCaCJ9
-    restart: always
-
   duckdns:
     image: ghcr.io/linuxserver/duckdns
     container_name: duckdns_net_bridge
@@ -39,3 +33,9 @@ services:
     # volumes:	Remover
     #- E:/Docker/DuckDns/config:/config
     restart: unless-stopped
+
+  tunnel-bridge:
+    image: cloudflare/cloudflared:latest
+    container_name: tunnel_net_bridge
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik56aGxOREZpWldJdE56VmpNUzAwTnpVMExUa3hORE10Wm1aa04yRTNNV0V6TmpCaCJ9
+    restart: always

@@ -28,8 +28,7 @@ COMMANDOS_ARRAY=(
 "mkdir -m 775 /usr/share/backgrounds/xfce  /usr/share/extra/backgrounds"
 # files cp
 "$AS_USER 'cp $SCRIPT_DIR/tools/conf_copy_.zshrc $KASM_HOME/.zshrc'"
-"$AS_USER 'cp $SCRIPT_DIR/install_s1.sh $KASM_HOME/Desktop/install_s1.sh'"
-"$AS_USER 'cp $SCRIPT_DIR/SentinelAgent_linux_v23_1_2_9.deb $KASM_HOME/Desktop/SentinelAgent_linux_v23_1_2_9.deb'"
+"$AS_USER 'cp $SCRIPT_DIR/tools/open_s1.sh $KASM_HOME/Desktop/open_s1.sh'"
 # backgrounds Change
 "cp $SCRIPT_DIR/bg_default.png /usr/share/extra/backgrounds/bg_default.png"
 "cp $SCRIPT_DIR/bg_default.jpg /usr/share/backgrounds/xfce/xfce-blue.jpg"

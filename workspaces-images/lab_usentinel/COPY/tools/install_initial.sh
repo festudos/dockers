@@ -14,25 +14,25 @@ function f_Exec_Eval() {
     done 
 }
 
-GET_APT="apt-get install -y "
- 
- 
+
 COMMANDOS_ARRAY=(
 "echo 'Initial Install'" 
 "apt-get update"
 "apt-get upgrade -y"
-"${GET_APT} apt-utils"
-"${GET_APT} net-tools"
-"${GET_APT} ethtool"
-"${GET_APT} curl"
-"${GET_APT} wget"
-"${GET_APT} htop"
-"${GET_APT} nano"
-"${GET_APT} zsh"
-"${GET_APT} zsh-autosuggestions"
-"${GET_APT} zsh-syntax-highlighting"
-"${GET_APT} git"
-"${GET_APT} tmux"
+"apt-get install -y  apt-utils"
+"apt-get install -y  net-tools"
+"apt-get install -y  iputils-ping"
+"apt-get install -y  ethtool"
+"apt-get install -y  curl"
+"apt-get install -y  wget"
+"apt-get install -y  htop"
+"apt-get install -y  nano"
+"apt-get install -y  zsh"
+"apt-get install -y  zsh-autosuggestions"
+"apt-get install -y  zsh-syntax-highlighting"
+"apt-get install -y  git"
+"apt-get install -y  tmux"
+"apt-get install -y  7zip"
 
 )
 

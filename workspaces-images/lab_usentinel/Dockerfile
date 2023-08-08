@@ -1,8 +1,4 @@
-
-ARG BASE_TAG="develop"
-ARG BASE_IMAGE="core-ubuntu-jammy"
-FROM kasmweb/$BASE_IMAGE:$BASE_TAG
-
+FROM kasmweb/core-ubuntu-jammy:develop
 USER root
 
 ### Envrionment config
@@ -16,15 +12,9 @@ ENV \
     KASM_HOME=/home/kasm-user \
     SKIP_CLEAN=true \
     DEBIAN_FRONTEND=noninteractive \
-    DONT_PROMPT_WSL_INSTALL=No_Prompt_please \
-    SCRIPT_LIST="/tools/install_initial.sh \
-                  /tools/configure.sh \
-                  /chrome/install_chrome.sh \
-                  /cleanup/cleanup.sh \
-                  /tools/install_end.sh \
-                  /tools/install_s1.sh" 
+    DONT_PROMPT_WSL_INSTALL=No_Prompt_please 
 WORKDIR /dockerstartup
-COPY ./COPY /dockerstartup/install
+COPY ../z_Install_WSpaces_Img /dockerstartup/install
 RUN echo 'sentinel_v23.1.2.9' | tee /etc/hostname
 # Run installations
 RUN bash ${SCRIPT_DIR}/tools/install_initial.sh ; \
@@ -44,7 +34,7 @@ RUN usermod -l ${NEW_USER} ${OLD_USER} ; \
  mv /home/${OLD_USER} /home/${NEW_USER} ; \
  usermod -d /home/${NEW_USER} -m ${NEW_USER} ; \
  chown -R ${NEW_USER}:${NEW_USER} /home/${NEW_USER} ; \
- rm -rd /home/kasm* ; \
+ rm -rd /home/kasm* ${STARTUPDIR} ; \
  sleep 5
 
 # Userspace Runtime

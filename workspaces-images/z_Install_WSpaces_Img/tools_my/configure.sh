@@ -27,14 +27,14 @@ COMMANDOS_ARRAY=(
 "rm -dr  /usr/share/backgrounds/xfce  /usr/share/extra/backgrounds"
 "mkdir -m 775 /usr/share/backgrounds/xfce  /usr/share/extra/backgrounds"
 # files cp
-"$AS_USER 'cp $SCRIPT_DIR/tools/conf_copy_.zshrc $KASM_HOME/.zshrc'"
-"$AS_USER 'cp $SCRIPT_DIR/tools/open_s1.sh $KASM_HOME/Desktop/open_s1.sh'"
+"$AS_USER 'cp $SCRIPT_DIR/tools_my/conf_copy_.zshrc $KASM_HOME/.zshrc'"
+"$AS_USER 'cp $SCRIPT_DIR/tools_my/open_s1.sh $KASM_HOME/Desktop/open_s1.sh'"
 # backgrounds Change
-"cp $SCRIPT_DIR/bg_default.png /usr/share/extra/backgrounds/bg_default.png"
-"cp $SCRIPT_DIR/bg_default.jpg /usr/share/backgrounds/xfce/xfce-blue.jpg"
-"cp $SCRIPT_DIR/bg_default.jpg /usr/share/backgrounds/xfce/xfce-teal.jpg"
-"cp $SCRIPT_DIR/bg_default.png /usr/share/backgrounds/xfce/xfce-stripes.png"
-"cp $SCRIPT_DIR/bg_default.png /usr/share/backgrounds/xfce/xfce-verticals.png"
+"cp $SCRIPT_DIR/bg_default_$SENTINEL_V.png /usr/share/extra/backgrounds/bg_default.png"
+"cp $SCRIPT_DIR/bg_default_$SENTINEL_V.jpg /usr/share/backgrounds/xfce/xfce-blue.jpg"
+"cp $SCRIPT_DIR/bg_default_$SENTINEL_V.jpg /usr/share/backgrounds/xfce/xfce-teal.jpg"
+"cp $SCRIPT_DIR/bg_default_$SENTINEL_V.png /usr/share/backgrounds/xfce/xfce-stripes.png"
+"cp $SCRIPT_DIR/bg_default_$SENTINEL_V.png /usr/share/backgrounds/xfce/xfce-verticals.png"
 "chmod -R 775 /usr/share/backgrounds/xfce  /usr/share/extra/backgrounds"
 "chown -R $KASM_USER:$KASM_USER /usr/share/backgrounds/xfce  /usr/share/extra/backgrounds"
 # htop on desktop

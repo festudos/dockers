@@ -12,17 +12,19 @@ ENV \
     KASM_HOME=/home/kasm-user \
     SKIP_CLEAN=true \
     DEBIAN_FRONTEND=noninteractive \
-    DONT_PROMPT_WSL_INSTALL=No_Prompt_please 
+    DONT_PROMPT_WSL_INSTALL=No_Prompt_please \
+    SENTINEL_V=sentinel_v23.2.2.4
 WORKDIR /dockerstartup
-COPY ../z_Install_WSpaces_Img /dockerstartup/install
-RUN echo 'sentinel_v23.1.2.9' | tee /etc/hostname
+COPY ./z_Install_WSpaces_Img ${SCRIPT_DIR}
+RUN echo "$SENTINEL_V" | tee /etc/hostname
+
 # Run installations
-RUN bash ${SCRIPT_DIR}/tools/install_initial.sh ; \
- bash ${SCRIPT_DIR}/tools/configure.sh ; \
+RUN bash ${SCRIPT_DIR}/tools_my/install_initial.sh ; \
+ bash ${SCRIPT_DIR}/tools_my/configure.sh ; \
  bash ${SCRIPT_DIR}/chrome/install_chrome.sh ; \
  bash ${SCRIPT_DIR}/cleanup/cleanup.sh ; \
- bash ${SCRIPT_DIR}/tools/install_end.sh ; \
- bash ${SCRIPT_DIR}/tools/install_s1.sh ; \
+ bash ${SCRIPT_DIR}/tools_my/install_end.sh ; \
+ bash ${SCRIPT_DIR}/tools_my/install_s1.sh ; \
  rm -rd /dockerstartup/install ; \
  sleep 5
 ENV \ 

@@ -28,3 +28,10 @@ services:
     restart: unless-stopped				
 ```							
 						
+- Configurações adicionais:
+   → https://sabnzbd.org/wiki/extra/hostname-check.html
+   → Editar
+         • /home/butt/Docker/sabnzbd/data/
+         • sabnzbd.ini
+         • local_ranges = 200.200.200.0/24
+                  - Colocar os IPs de acesso

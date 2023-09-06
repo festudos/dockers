@@ -1,0 +1,16 @@
+version: "3"
+services:
+  home-assistant:
+    image: homeassistant/home-assistant  #ghcr.io/home-assistant/home-assistant:stable
+    container_name: home-assistant
+    privileged: true   
+    environment:
+      - TZ=America/Sao_paulo
+    volumes:
+      - /home/butt/Docker/home-assistant/config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /home/butt/Docker/home-assistant/media/:/media
+    ports:
+      - 8123:8123
+    restart: unless-stopped
+    

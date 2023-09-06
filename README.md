@@ -1,3 +1,10 @@
+[![Install Docker Debian]( https://docs.docker.com/desktop/install/debian/ )]
+https://docs.docker.com/engine/install/debian/#set-up-the-repository
+https://docs.docker.com/desktop/install/debian/
+https://desktop.docker.com/linux/main/amd64/docker-desktop-4.11.0-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64
+https://docs.docker.com/compose/gettingstarted/
+
+
 | Referencia| Docs| Files|
 |:-------------|:-------------|:-------------|
 | [Portainer]( https://www.portainer.io/) | [doc]( https://docs.portainer.io/start/install/server/docker) | [![Docker]( https://img.shields.io/docker/pulls/caffix/amass.svg )](./portainer-ce ) |

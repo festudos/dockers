@@ -1,5 +1,5 @@
 
-[Jackett](https://www.duckdns.org/)
+[Organizr](https://hub.docker.com/r/linuxserver/organizr)
 		
 ----
 

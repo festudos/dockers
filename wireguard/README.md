@@ -4,9 +4,26 @@
 ----
 
 # Shell				
-```bash	
-	   docker run -it -d \
-	   --name 					
+```bash
+docker run -d \
+  --name	wireguard.add \
+  --cap-add	NET_ADMIN \
+  --cap-add	SYS_MODULE \
+  -e	PUID=1000	 \
+  -e	PGID=100	\
+  -e	TZ=America/Sao_Paulo \
+  -e	SERVERURL=fgm.duckdns.org \
+  -e	SERVERPORT=51822 \
+  -e	PEERS=add \
+  -e	PEERDNS=auto \
+  -e	INTERNAL_SUBNET=10.13.13.0 \
+  -e	ALLOWEDIPS=0.0.0.0/0 \
+  -p	51822:51822/udp \
+  -v	C:\ProgramData\Docker\wireguard.addd\config:/config \
+  -v	C:\ProgramData\Docker\wireguard.addd\modules:/lib/modules \
+  --restart	unless-stopped \
+  ghcr.io/linuxserver/wireguard
+						
 ```							
 # YAML							
 ```bash							

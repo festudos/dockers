@@ -12,7 +12,7 @@ sudo docker run -d \
 	--name portainer \
 	--network dns-net \
 	-v /var/run/docker.sock:/var/run/docker.sock \
-	-v /media/butt/Arquivos/Docker/portainer-ce/conf:/data \
+	-v /home/butt/Docker/portainer-ce/conf:/data \
 	--restart always \
 	portainer/portainer-ce				
 ```					

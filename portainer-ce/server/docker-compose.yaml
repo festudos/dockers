@@ -3,12 +3,9 @@ services:
   portainer:
     image: portainer/portainer-ce
     container_name: portainer
+    privileged: true
     labels:
-    - traefik.http.routers.portainer.rule=Host(`portainer.localhost`)
-    - traefik.http.services.portainer.loadbalancer.server.port=9000
-    - traefik.http.routers.portainer.tls=true
-    #- traefik.http.routers.portainer.entrypoints=entryhttps
-    #- traefik.http.routers.portainer.certresolver=certresolver# em traefik.yml
+    - 'portainer.localhost'
     environment:
     - PUID=1000
     - PGID=1000
@@ -39,3 +36,7 @@ services:
     container_name: tunnel_net_bridge
     command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik56aGxOREZpWldJdE56VmpNUzAwTnpVMExUa3hORE10Wm1aa04yRTNNV0V6TmpCaCJ9
     restart: always
+networks:
+  default:
+    external: true
+    name: proxyed 

@@ -1,0 +1,30 @@
+version: "3"
+services: 
+  nginx-proxy_new:
+    image: nginxproxy/nginx-proxy:1.4
+    container_name: nginx-proxy_new
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    ports:
+      - 80:80
+    restart: unless-stopped
+
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    privileged: true
+    labels:
+    - 'portainer.localhost'
+    environment:
+    - VIRTUAL_HOST=portainer.localhost
+    - VIRTUAL_PORT=9000
+    - PUID=1000
+    - PGID=1000
+    - TZ=America/Sao_paulo
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    - /home/pci/Docker/portainer-ce/conf:/data
+    #ports:
+    expose:
+    - "9000"

@@ -4,7 +4,8 @@
 ----
 # Community Edition			
 ```bash	
-
+Email:    admin@example.com
+Password: changeme
 ```
 
 # Shell				

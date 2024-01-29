@@ -5,7 +5,7 @@ services:
     container_name: portainer
     privileged: true
     labels:
-    - 'portainer.localhost'
+    - 'portainer.localhost' 
     environment:
     - PUID=1000
     - PGID=1000

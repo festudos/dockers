@@ -40,7 +40,7 @@ services:
 networks:
   frontend:
     name: frontend
-    attachable: true
+    external: true
 
   paperless:
     name: paperless

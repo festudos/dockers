@@ -40,3 +40,9 @@ RESPONSE=$(curl -sS --max-time 60 "https://www.duckdns.org/update?domains=${SUBD
         echo -e "Something went wrong, please check your settings $(date)\nThe response returned was:\n${RESPONSE}"
     fi
 } | tee -a "${DUCK_LOG}"
+
+
+#SUBDOMAINS='dei-djgl2l3-local';
+#TOKEN='ad68a933-0ece-445c-ae15-aecfb96c9c5c';
+#IPset=$(hostname -I | awk '{print $1}');
+#curl -sS --max-time 60 "https://www.duckdns.org/update?domains=${SUBDOMAINS}&tok>&& echo 'nslookup dei-djgl2l3-local.duckdns.org:' && nslookup dei-djgl2l3-local.>

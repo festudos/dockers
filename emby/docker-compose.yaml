@@ -4,15 +4,14 @@ services:
   emby:
     image: emby/embyserver:latest
     container_name: buttflix
-    labels:
-      - traefik.http.routers.emby.rule=Host(`buttflix.server`)
-      - traefik.http.services.emby.loadbalancer.server.port=8096
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
     volumes:
+      #- /mnt/f/butt/Docker/emby/config:/config
+      #- /mnt/d/:/mnt/share1
+      #- /mnt/e/:/mnt/share2
       - /home/butt/Docker/emby/config:/config
       - /media/butt/Downloads/:/mnt/share1
       - /media/butt/Lento/:/mnt/share2
@@ -20,7 +19,11 @@ services:
       - 8000:8096
       #- 8001:8920
     restart: unless-stopped
+    networks:
+      - media
+
 networks:
-  default:
-    external:
-      name: dns-net
+  media:
+    name: media
+    #external: true
+    attachable: true

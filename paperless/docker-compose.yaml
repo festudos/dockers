@@ -31,11 +31,11 @@ services:
     ports:
       - "8800:8000"
     volumes:
-      - /home/pci/Docker/peperless/Data:/usr/src/paperless/data
-      - /home/pci/Docker/peperless/Media:/usr/src/paperless/media
+      - /home/Docker/peperless/Data:/usr/src/paperless/data
+      - /home/Docker/peperless/Media:/usr/src/paperless/media
       - ./export:/usr/src/paperless/export
-      - /home/pci/Docker/peperless/paperless-ngx/consume:/usr/src/paperless/consume
-    env_file: /home/pci/Docker/peperless/paperless-ngx/docker-compose.env
+      - /mnt/d:/usr/src/paperless/consume
+    #env_file: /home/pci/Docker/peperless/paperless-ngx/docker-compose.env
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db

@@ -13,93 +13,101 @@ services:
       - TZ=America/Sao_paulo
       - WEBUI_PORT=7001
     volumes:
+      #- /mnt/f/butt/Docker/qBittorrent/config:/config
+      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads
       - /home/butt/Docker/qBittorrent/config:/config
-      - /home/butt/Downloads/qBittorrent:/downloads
+      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads
     ports:
       - 7002:6881
       - 7003:6881/udp
       - 7001:7001
     restart: unless-stopped
+    networks:
+      - media
 #services:
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
     container_name: sonarr
-    labels:
-      - traefik.http.routers.sonarr.rule=Host(`series.server`)
-      - traefik.http.services.sonarr.loadbalancer.server.port=8989
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
     volumes:
+      #- /mnt/f/butt/Docker/sonarr/config:/config
+      #- /mnt/e/backup/Videos/MovieFlix/tvseries:/tv #optional
+      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
       - /home/butt/Docker/sonarr/config:/config
       - /media/butt/backup/Videos/MovieFlix/tvseries:/tv #optional
-      - /home/butt/Downloads/qBittorrent:/downloads #o mesmo do qBittorrent
+      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
     ports:
       - 4000:8989
     restart: unless-stopped
+    networks:
+      - media
 #services:
   radarr:
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
-    labels:
-      - traefik.http.routers.radarr.rule=Host(`filmes.server`)
-      - traefik.http.services.radarr.loadbalancer.server.port=7878
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
     volumes:
+      #- /mnt/f/butt/Docker/radarr/config:/config
+      #- /mnt/e/backup/Videos/MovieFlix/movies:/movies #optional
+      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
       - /home/butt/Docker/radarr/config:/config
       - /media/butt/backup/Videos/MovieFlix/movies:/movies #optional
-      - /home/butt/Downloads/qBittorrent:/downloads #o mesmo do qBittorrent
+      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
     ports:
       - 5000:7878
     restart: unless-stopped
+    networks:
+      - media
 #services:
   jackett:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
-    labels:
-      - traefik.http.routers.jackett.rule=Host(`jackett.server`)
-      - traefik.http.services.jackett.loadbalancer.server.port=9117
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
       - AUTO_UPDATE=true #optional
-      - RUN_OPTS=<run options here> #optional
+      #- RUN_OPTS=<run options here> #optional
     volumes:
+      #- /mnt/f/butt/Docker/jackett/config:/config
+      #- /mnt/f/butt/Docker/jackett/downloads:/downloads
       - /home/butt/Docker/jackett/config:/config
       - /home/butt/Docker/jackett/downloads:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
-#services:
+    networks:
+      - media
+
   emby:
     image: emby/embyserver:latest
     container_name: buttflix
-    labels:
-      - traefik.http.routers.emby.rule=Host(`buttflix.server`)
-      - traefik.http.services.emby.loadbalancer.server.port=8096
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
     volumes:
-      #- /home/butt/Docker/emby/system:/system
+      #- /mnt/f/butt/Docker/emby/config:/config
+      #- /mnt/d/:/mnt/share1
+      #- /mnt/e/:/mnt/share2
       - /home/butt/Docker/emby/config:/config
-      - /media/butt/backup/Videos/MovieFlix:/mnt/share1
-      - /media/butt/ext4NTFS:/mnt/share2
+      - /media/butt/ext4NTFS/:/mnt/share1
+      - /media/butt/backup/:/mnt/share2
     ports:
       - 8000:8096
       #- 8001:8920
     restart: unless-stopped
+    networks:
+      - media
+
 networks:
-  default:
-    external:
-      name: dns-net
+  media:
+    name: media
+    #external: true
+    attachable: true

@@ -9,7 +9,9 @@ services:
       MYSQL_USER: 'npm'
       MYSQL_PASSWORD: 'npm'
     volumes: 
-      - /home/pci/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
+      #- /mnt/f/butt/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
+      - /home/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
+      #- /home/butt/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
     networks:
       - frontend
   nginx-proxy-manager:
@@ -20,8 +22,12 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - /home/pci/Docker/nginx-proxy-manager/data:/data
-      - /home/pci/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      - /home/Docker/nginx-proxy-manager/data:/var/lib/mysql
+      - /home/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      #- /mnt/f/butt/Docker/nginx-proxy-manager/data:/data
+      #- /mnt/f/butt/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      #- /home/butt/Docker/nginx-proxy-manager/data:/data
+      #- /home/butt/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
     environment:
       # Mysql/Maria connection parameters:
       DB_MYSQL_HOST: "db"
@@ -41,7 +47,11 @@ networks:
   frontend:
     name: frontend
     external: true
-
+    #attachable: true
   paperless:
     name: paperless
+    external: true
+    #attachable: true
+  media:
+    name: media
     external: true

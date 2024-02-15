@@ -1,0 +1,5 @@
+FTP_FILE=('/home/docker/paperless/consume' '/home/docker/paperless/media/documents' )
+FTP_PORT=('2121' '2122')
+USERS=('upci') 
+PASSWDS=('ZFhCamFRbz0K')
+LOG_FILE_FTP=/tmp/log_pyftpdlib.txt

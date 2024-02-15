@@ -3,20 +3,16 @@ services:
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
-    labels:
-      - traefik.http.routers.qbittorrent.rule=Host(`torrent.server`)
-      - traefik.http.services.qbittorrent.loadbalancer.server.port=7001
-      - traefik.port=80
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
       - WEBUI_PORT=7001
     volumes:
-      #- /mnt/f/butt/Docker/qBittorrent/config:/config
-      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads
-      - /home/butt/Docker/qBittorrent/config:/config
-      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads
+      #- /home/docker/qBittorrent/config:/config
+      - /mnt/f/docker/qBittorrent/config:/config
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads
+      
     ports:
       - 7002:6881
       - 7003:6881/udp
@@ -32,13 +28,11 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
-    volumes:
-      #- /mnt/f/butt/Docker/sonarr/config:/config
-      #- /mnt/e/backup/Videos/MovieFlix/tvseries:/tv #optional
-      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
-      - /home/butt/Docker/sonarr/config:/config
-      - /media/butt/backup/Videos/MovieFlix/tvseries:/tv #optional
-      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
+    volumes: 
+      #- /home/docker/sonarr/config:/config
+      - /mnt/f/docker/sonarr/config:/config
+      - /mnt/e/Videos/MovieFlix/tvseries:/tv #optional
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
     ports:
       - 4000:8989
     restart: unless-stopped
@@ -52,13 +46,11 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_paulo
-    volumes:
-      #- /mnt/f/butt/Docker/radarr/config:/config
-      #- /mnt/e/backup/Videos/MovieFlix/movies:/movies #optional
-      #- /mnt/e/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
-      - /home/butt/Docker/radarr/config:/config
-      - /media/butt/backup/Videos/MovieFlix/movies:/movies #optional
-      - /media/butt/backup/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
+    volumes: #o mesmo do qBittorrent
+      #- /home/docker/radarr/config:/config
+      - /mnt/f/docker/radarr/config:/config
+      - /mnt/e/Videos/MovieFlix/movies:/movies #optional
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads
     ports:
       - 5000:7878
     restart: unless-stopped
@@ -75,10 +67,10 @@ services:
       - AUTO_UPDATE=true #optional
       #- RUN_OPTS=<run options here> #optional
     volumes:
-      #- /mnt/f/butt/Docker/jackett/config:/config
-      #- /mnt/f/butt/Docker/jackett/downloads:/downloads
-      - /home/butt/Docker/jackett/config:/config
-      - /home/butt/Docker/jackett/downloads:/downloads
+      - /mnt/f/docker/jackett/config:/config
+      - /mnt/f/docker/jackett/downloads:/downloads
+      #- /home/docker/jackett/config:/config
+      #- /home/docker/jackett/downloads:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
@@ -90,15 +82,13 @@ services:
     container_name: buttflix
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=America/Sao_paulo
     volumes:
-      #- /mnt/f/butt/Docker/emby/config:/config
-      #- /mnt/d/:/mnt/share1
-      #- /mnt/e/:/mnt/share2
-      - /home/butt/Docker/emby/config:/config
-      - /media/butt/ext4NTFS/:/mnt/share1
-      - /media/butt/backup/:/mnt/share2
+      #- /home/butt/docker/emby/config:/config
+      - /mnt/f/docker/emby/config:/config
+      - /mnt/d/DataMyNetFlix:/mnt/share1
+      - /mnt/e/Videos:/mnt/share2
     ports:
       - 8000:8096
       #- 8001:8920
@@ -109,5 +99,5 @@ services:
 networks:
   media:
     name: media
-    #external: true
-    attachable: true
+    external: true
+    #attachable: true

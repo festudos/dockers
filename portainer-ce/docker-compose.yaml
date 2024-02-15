@@ -12,9 +12,8 @@ services:
     - TZ=America/Sao_paulo
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
+    #- /mnt/f/butt/Docker/portainer-win/conf:/data
     - /home/Docker/portainer-ce/conf:/data
-    #- /home/butt/Docker/portainer-ce/conf:/data
-    #- D:\Docker\portainer/conf:/data
     ports:
     - 9000:9000
     restart: always
@@ -34,9 +33,9 @@ services:
       - LOG_FILE=false
       #- UPDATE_IP=ipv4 # ipv6 both lan
     #volumes:
-      #- /mnt/f/butt/Docker/duckdns/config/duck.sh:/app/duck.sh
-      #- /home/butt/Docker/duckdns/config/duck.sh:/app/duck.sh
-      #- /home/butt/Docker/duckdns/config/hostname:/app/hostname
+      #- /mnt/f/Docker/duckdns/config/duck.sh:/app/duck.sh
+      #- /home/Docker/duckdns/config/duck.sh:/app/duck.sh
+      #- /home/Docker/duckdns/config/hostname:/app/hostname
     restart: unless-stopped	 
     networks:
       - frontend
@@ -45,10 +44,9 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: tunnel_home_bserver
   #uDesktop wDesktop
-    #home
-    #command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik1EQTNabVJpWmpRdFpHVmpaaTAwTW1FM0xXRXpNRGd0Tm1ReE5tSTNOREF5TVRBMiJ9
-    #pcie
-    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiYjkzZmM5MDgtOTAyYy00ZDUzLWJjODQtYzFkNTljNjkzYzQ5IiwicyI6IlpUazRZVEkwWTJJdE9HSXpaQzAwWXpOaExXRXlOVEV0WkdWaFpqZGxPV1kwWmpFeCJ9
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiNzQ5MjQ0YmItYzg2NC00YzQ5LThlMzctOTA3MjU1Y2NmMDc3IiwicyI6Ik1EQTNabVJpWmpRdFpHVmpaaTAwTW1FM0xXRXpNRGd0Tm1ReE5tSTNOREF5TVRBMiJ9
+  #pcie
+  # command: tunnel --no-autoupdate run --token eyJhIjoiMjJiZTQwZTM5YzlhMzg4Njg5ZjQ4ZjI4YTc2ZDlkMGYiLCJ0IjoiYjkzZmM5MDgtOTAyYy00ZDUzLWJjODQtYzFkNTljNjkzYzQ5IiwicyI6IlpUazRZVEkwWTJJdE9HSXpaQzAwWXpOaExXRXlOVEV0WkdWaFpqZGxPV1kwWmpFeCJ9
     restart: always
     networks:
       - frontend

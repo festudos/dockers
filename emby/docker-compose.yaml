@@ -6,15 +6,15 @@ services:
     container_name: buttflix
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=America/Sao_paulo
     volumes:
-      #- /mnt/f/butt/Docker/emby/config:/config
-      #- /mnt/d/:/mnt/share1
-      #- /mnt/e/:/mnt/share2
-      - /home/butt/Docker/emby/config:/config
-      - /media/butt/Downloads/:/mnt/share1
-      - /media/butt/Lento/:/mnt/share2
+      - /mnt/f/Docker/emby/config:/config
+      - /mnt/d/DataMyNetFlix:/mnt/share1
+      - /mnt/e/Videos:/mnt/share2
+      #- /home/butt/Docker/emby/config:/config
+      #- /media/butt/ext4NTFS/DataMyNetFlix:/mnt/share1
+      #- /media/butt/backup/Videos:/mnt/share2
     ports:
       - 8000:8096
       #- 8001:8920

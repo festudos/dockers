@@ -58,9 +58,9 @@ services:
       - 8800:8000
     volumes:
       - /home/docker/paperless/Data:/usr/src/paperless/data
-      - /home/docker/paperless/Media:/usr/src/paperless/media
+      - /home/docker/paperless/media:/usr/src/paperless/media
       - /home/docker/paperless/export:/usr/src/paperless/export
-      - /home/upci/consume:/usr/src/paperless/consume
+      - /home/docker/paperless/consume:/usr/src/paperless/consume
 
       - /home/docker/paperless/alterado/signin.css:/usr/src/paperless/src/documents/static/signin.css
     env_file: /home/docker/paperless/docker-compose.env

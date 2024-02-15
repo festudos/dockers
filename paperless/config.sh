@@ -2,4 +2,4 @@
 
 # https://docs.paperless-ngx.com/setup/
 
-sudo apt install libleptonica-dev libtool make zlib1g-dev automake ocrmypdf
+sudo apt install libleptonica-dev libtool make zlib1g-dev automake ocrmypdf tesseract-ocr tesseract-ocr-por tesseract-ocr-eng

@@ -11,7 +11,6 @@ services:
     volumes: 
       #- /mnt/f/butt/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
       - /home/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
-      #- /home/butt/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
     networks:
       - frontend
   nginx-proxy-manager:
@@ -26,8 +25,6 @@ services:
       - /home/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
       #- /mnt/f/butt/Docker/nginx-proxy-manager/data:/data
       #- /mnt/f/butt/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
-      #- /home/butt/Docker/nginx-proxy-manager/data:/data
-      #- /home/butt/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
     environment:
       # Mysql/Maria connection parameters:
       DB_MYSQL_HOST: "db"

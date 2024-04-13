@@ -1,0 +1,103 @@
+version: "3"
+services:
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_paulo
+      - WEBUI_PORT=7001
+    volumes:
+      #- /home/docker/qBittorrent/config:/config
+      - /mnt/f/docker/qBittorrent/config:/config
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads
+      
+    ports:
+      - 7003:6881
+      - 7003:6881/udp
+      - 7001:7001
+    restart: unless-stopped
+    networks:
+      - media
+#services:
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_paulo
+    volumes: 
+      #- /home/docker/sonarr/config:/config
+      - /mnt/f/docker/sonarr/config:/config
+      - /mnt/e/Videos/MovieFlix/tvseries:/tv #optional
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
+    ports:
+      - 4000:8989
+    restart: unless-stopped
+    networks:
+      - media
+#services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_paulo
+    volumes: #o mesmo do qBittorrent
+      #- /home/docker/radarr/config:/config
+      - /mnt/f/docker/radarr/config:/config
+      - /mnt/e/Videos/MovieFlix/movies:/movies #optional
+      - /mnt/e/Videos/MovieFlix/downloads:/downloads
+    ports:
+      - 5000:7878
+    restart: unless-stopped
+    networks:
+      - media
+#services:
+  jackett:
+    image: lscr.io/linuxserver/jackett:latest
+    container_name: jackett
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_paulo
+      - AUTO_UPDATE=true #optional
+      #- RUN_OPTS=<run options here> #optional
+    volumes:
+      - /mnt/f/docker/jackett/config:/config
+      - /mnt/f/docker/jackett/downloads:/downloads
+      #- /home/docker/jackett/config:/config
+      #- /home/docker/jackett/downloads:/downloads
+    ports:
+      - 9117:9117
+    restart: unless-stopped
+    networks:
+      - media
+
+  emby:
+    image: emby/embyserver:latest
+    container_name: buttflix
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=America/Sao_paulo
+    volumes:
+      #- /home/butt/docker/emby/config:/config
+      - /mnt/f/docker/emby/config:/config
+      - /mnt/d/DataMyNetFlix:/mnt/share1
+      - /mnt/e/Videos:/mnt/share2
+    ports:
+      - 8000:8096
+      #- 8001:8920
+    restart: unless-stopped
+    networks:
+      - media
+
+networks:
+  media:
+    name: media
+    external: true
+    #attachable: true

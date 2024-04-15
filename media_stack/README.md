@@ -56,3 +56,5 @@ A senha Admin/adminadmin do qBittorrent funciona se a linha abaixo estiver no ar
 WebUI\Password_PBKDF2="@ByteArray(ARQ77eY1NUZaQsuDHbIMCA==:0WMRkYTUWVT9wVvdDtHAjU9b3b7uB8NR1Gur2hmQCvCDpm39Q+PsJRJPaCU51dEiz+dTzh8qbPsL8WkFljQYFQ==)"
 						
 ```
+https://hotio.dev/containers/whisparr/#__tabbed_1_2
+https://wiki.servarr.com/docker-guide

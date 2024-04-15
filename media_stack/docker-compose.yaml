@@ -11,12 +11,29 @@ services:
     volumes:
       #- /home/docker/qBittorrent/config:/config
       - /mnt/f/docker/qBittorrent/config:/config
-      - /mnt/e/Videos/MovieFlix/downloads:/downloads
+      - /mnt/e/Videos/MovieFlix:/downloads
       
     ports:
-      - 7003:6881
+      - 7002:6881
       - 7003:6881/udp
       - 7001:7001
+    restart: unless-stopped
+    networks:
+      - media
+#services:
+  whisparr:
+    container_name: whisparr
+    image: ghcr.io/hotio/whisparr
+    ports:
+      - 6969:6969
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=America/Sao_paulo
+    volumes:
+      - /mnt/f/docker/whisparr/config:/config
+      - /mnt/e/Videos/MovieFlix/data:/downloads
     restart: unless-stopped
     networks:
       - media
@@ -31,8 +48,7 @@ services:
     volumes: 
       #- /home/docker/sonarr/config:/config
       - /mnt/f/docker/sonarr/config:/config
-      - /mnt/e/Videos/MovieFlix/tvseries:/tv #optional
-      - /mnt/e/Videos/MovieFlix/downloads:/downloads #o mesmo do qBittorrent
+      - /mnt/e/Videos/MovieFlix:/downloads
     ports:
       - 4000:8989
     restart: unless-stopped
@@ -49,8 +65,7 @@ services:
     volumes: #o mesmo do qBittorrent
       #- /home/docker/radarr/config:/config
       - /mnt/f/docker/radarr/config:/config
-      - /mnt/e/Videos/MovieFlix/movies:/movies #optional
-      - /mnt/e/Videos/MovieFlix/downloads:/downloads
+      - /mnt/e/Videos/MovieFlix:/downloads
     ports:
       - 5000:7878
     restart: unless-stopped

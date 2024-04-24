@@ -48,3 +48,7 @@ networks:
     external:
       name: dns-net	
 ```					
+# Password Change					
+```bash	
+run --rm -v /home/docker/portainer-ce/conf:/data portainer/helper-reset-password
+```					

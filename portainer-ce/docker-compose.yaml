@@ -12,8 +12,8 @@ services:
     - TZ=America/Sao_paulo
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
-    #- /mnt/f/butt/Docker/portainer-win/conf:/data
-    - /home/Docker/portainer-ce/conf:/data
+    #- /mnt/f/butt/docker/portainer-win/conf:/data
+    - /home/docker/portainer-ce/conf:/data
     ports:
     - 9000:9000
     restart: always
@@ -33,9 +33,9 @@ services:
       - LOG_FILE=false
       #- UPDATE_IP=ipv4 # ipv6 both lan
     #volumes:
-      #- /mnt/f/Docker/duckdns/config/duck.sh:/app/duck.sh
-      #- /home/Docker/duckdns/config/duck.sh:/app/duck.sh
-      #- /home/Docker/duckdns/config/hostname:/app/hostname
+      #- /mnt/f/docker/duckdns/config/duck.sh:/app/duck.sh
+      #- /home/docker/duckdns/config/duck.sh:/app/duck.sh
+      #- /home/docker/duckdns/config/hostname:/app/hostname
     restart: unless-stopped	 
     networks:
       - frontend
@@ -56,3 +56,4 @@ networks:
     name: frontend
     #external: true
     attachable: true
+#run --rm -v /home/docker/portainer-ce/conf:/data portainer/helper-reset-password

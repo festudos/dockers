@@ -10,8 +10,8 @@ services:
       - WEBUI_PORT=7001
     volumes:
       #- /home/docker/qBittorrent/config:/config
-      - /mnt/f/docker/qBittorrent/config:/config
-      - /mnt/e/Videos/MovieFlix:/downloads
+      - /home/docker/qBittorrent/config:/config
+      - /mnt/e/MovieFlix:/downloads
       
     ports:
       - 7002:6881
@@ -29,11 +29,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - UMASK=002
+      #- UMASK=002
       - TZ=America/Sao_paulo
     volumes:
-      - /mnt/f/docker/whisparr/config:/config
-      - /mnt/e/Videos/MovieFlix/data:/downloads
+      - /home/docker/whisparr/config:/config
+      - /mnt/e/MovieFlix:/downloads
     restart: unless-stopped
     networks:
       - media
@@ -47,8 +47,8 @@ services:
       - TZ=America/Sao_paulo
     volumes: 
       #- /home/docker/sonarr/config:/config
-      - /mnt/f/docker/sonarr/config:/config
-      - /mnt/e/Videos/MovieFlix:/downloads
+      - /home/docker/sonarr/config:/config
+      - /mnt/e/MovieFlix:/downloads
     ports:
       - 4000:8989
     restart: unless-stopped
@@ -64,8 +64,8 @@ services:
       - TZ=America/Sao_paulo
     volumes: #o mesmo do qBittorrent
       #- /home/docker/radarr/config:/config
-      - /mnt/f/docker/radarr/config:/config
-      - /mnt/e/Videos/MovieFlix:/downloads
+      - /home/docker/radarr/config:/config
+      - /mnt/e/MovieFlix:/downloads
     ports:
       - 5000:7878
     restart: unless-stopped
@@ -82,8 +82,8 @@ services:
       - AUTO_UPDATE=true #optional
       #- RUN_OPTS=<run options here> #optional
     volumes:
-      - /mnt/f/docker/jackett/config:/config
-      - /mnt/f/docker/jackett/downloads:/downloads
+      - /home/docker/jackett/config:/config
+      - /home/docker/jackett/downloads:/downloads
       #- /home/docker/jackett/config:/config
       #- /home/docker/jackett/downloads:/downloads
     ports:
@@ -101,9 +101,9 @@ services:
       - TZ=America/Sao_paulo
     volumes:
       #- /home/butt/docker/emby/config:/config
-      - /mnt/f/docker/emby/config:/config
+      - /home/docker/emby/config:/config
       - /mnt/d/DataMyNetFlix:/mnt/share1
-      - /mnt/e/Videos:/mnt/share2
+      - /mnt/e:/mnt/share2
     ports:
       - 8000:8096
       #- 8001:8920
@@ -114,5 +114,5 @@ services:
 networks:
   media:
     name: media
-    external: true
-    #attachable: true
+    #external: true
+    attachable: true

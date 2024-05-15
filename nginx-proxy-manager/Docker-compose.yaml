@@ -9,8 +9,8 @@ services:
       MYSQL_USER: 'npm'
       MYSQL_PASSWORD: 'npm'
     volumes: 
-      #- /mnt/f/butt/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
-      - /home/Docker/nginx-proxy-manager/mysql:/var/lib/mysql
+      #- /mnt/f/butt/docker/nginx-proxy-manager/mysql:/var/lib/mysql
+      - /home/docker/nginx-proxy-manager/mysql:/var/lib/mysql
     networks:
       - frontend
   nginx-proxy-manager:
@@ -21,10 +21,10 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - /home/Docker/nginx-proxy-manager/data:/var/lib/mysql
-      - /home/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
-      #- /mnt/f/butt/Docker/nginx-proxy-manager/data:/data
-      #- /mnt/f/butt/Docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      - /home/docker/nginx-proxy-manager/data:/var/lib/mysql
+      - /home/docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      #- /mnt/f/butt/docker/nginx-proxy-manager/data:/data
+      #- /mnt/f/butt/docker/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
     environment:
       # Mysql/Maria connection parameters:
       DB_MYSQL_HOST: "db"
@@ -38,16 +38,16 @@ services:
       - db
     networks:
       - frontend
-      - paperless
+      #- paperless
       
 networks:
   frontend:
     name: frontend
     external: true
     #attachable: true
-  paperless:
-    name: paperless
-    external: true
+  #paperless:
+    #name: paperless
+    #external: true
     #attachable: true
   media:
     name: media

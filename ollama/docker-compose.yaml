@@ -1,0 +1,22 @@
+version: "3"
+services:
+  ollama-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_paulo
+      - OLLAMA_BASE_URL=http://127.0.0.1:11434 
+    volumes:
+      - /home/docker/ollama/config:/app/backend/data
+#    ports:
+#      - 7002:6881
+    restart: always
+    networks:
+      - ollama
+networks:
+  ollama:
+    name: ollama
+#    external: true
+    attachable: true
